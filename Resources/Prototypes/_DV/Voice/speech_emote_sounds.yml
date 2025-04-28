@@ -64,8 +64,6 @@
       collection: VulpkaninWhines
     Howl:
       collection: VulpkaninHowls
-    Awoo:
-      collection: VulpkaninHowls
 #    Honk:
 #      collection: BikeHorn
     Weh:
@@ -94,6 +92,8 @@
       collection: VulpkaninScreams # Floofstation
     Laugh:
       collection: MaleLaugh
+    Yap: #Floof
+      collection: VulpkaninYap
     Sneeze:
       collection: MaleSneezes
     Cough:
@@ -124,8 +124,6 @@
       collection: VulpkaninWhines
     Howl:
       collection: VulpkaninHowls
-    Awoo:
-      collection: VulpkaninHowls
     Gasp:
       collection: MaleGasp
     DefaultDeathgasp:
@@ -148,6 +146,8 @@
       collection: VulpkaninScreams # Floofstation
     Laugh:
       collection: FemaleLaugh
+    Yap: #Floof
+      collection: VulpkaninYap
     Sneeze:
       collection: FemaleSneezes
     Cough:
@@ -177,8 +177,6 @@
     Whine:
       collection: VulpkaninWhines
     Howl:
-      collection: VulpkaninHowls
-    Awoo:
       collection: VulpkaninHowls
     Gasp:
       collection: FemaleGasp

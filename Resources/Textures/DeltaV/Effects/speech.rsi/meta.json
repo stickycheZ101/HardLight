@@ -1,4 +1,4 @@
-﻿{
+{
     "version": 1,
     "size": {
         "x": 32,
@@ -23,17 +23,6 @@
         },
         {
             "name": "felinid2"
-        },
-        {
-            "name": "chitinid0",
-            "delays": [
-                [
-                    0.2,
-                    0.3,
-                    0.3,
-                    0.3
-                ]
-            ]
         },
         {
             "name": "chitinid1"
@@ -65,11 +54,58 @@
                     0.2,
                     0.3,
                     0.3,
+                    0.3
+                ]
+            ]
+        },
+        {
+            "name": "chitinid1"
+        },
+        {
+            "name": "chitinid2"
+        },
+		{
+            "name": "rodentia0",
+			"delays": [
+                [
+                    0.2,
+                    0.3,
+                    0.3,
+                    0.3
+                ]
+			]
+        },
+		{
+            "name": "rodentia1"
+        },
+		{
+            "name": "feroxi2"
+        },
+        {
+            "name": "feroxi0",
+            "delays": [
+                [
+                    0.2,
+                    0.3,
+                    0.3,
+                    0.5
+                ]
+            ]
+            "name": "kitsune0",
+            "delays": [
+                [
+                    0.2,
+                    0.3,
+                    0.3,
                     0.5
                 ]
             ]
         },
         {
+            "name": "kitsune1"
+        },
+        {
+            "name": "kitsune2"
             "name": "feroxi1"
         },
         {

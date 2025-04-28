@@ -16,6 +16,7 @@
     - Arachnid
     - Diona # Note: Frontier changes inside
     - Dwarf # Note: Frontier changes inside
+    - Dwarf
     - Human
     - Moth
     - Reptilian
@@ -32,6 +33,7 @@
     - Protogen # Monolith
     - Avali
     - Feroxi
+    - Kitsune
 
 - type: guideEntry
   id: Arachnid
@@ -83,6 +85,13 @@
   id: Resomi
   name: species-name-resomi
   text: "/ServerInfo/Guidebook/Mobs/Resomi.xml"
+  id: Shadowkin
+  name: species-name-shadowkin
+  text: "/ServerInfo/Guidebook/Mobs/Shadowkin.xml"
+
+- type: guideEntry
+  id: Harpy
+  name: species-name-harpy
 
 - type: guideEntry
   id: Avali
