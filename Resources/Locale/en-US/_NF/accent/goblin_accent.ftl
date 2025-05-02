@@ -394,7 +394,11 @@ accent-goblin-words-389 = just
 accent-goblin-words-390 = knows
 accent-goblin-words-391 = either
 accent-goblin-words-392 = my
+<<<<<<< HEAD
 accent-goblin-words-393 = Colsec
+=======
+accent-goblin-words-393 = TSFMC
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 accent-goblin-words-394 = rather
 accent-goblin-words-395 = police
 accent-goblin-words-396 = not edible

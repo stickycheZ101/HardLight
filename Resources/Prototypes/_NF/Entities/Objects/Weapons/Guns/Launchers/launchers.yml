@@ -78,10 +78,17 @@
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
 
 - type: entity
+<<<<<<< HEAD
   parent: [ BaseC3ExpeditionContraband, NFBaseWeaponLauncherChamber40mmGrenadesNfsdSingleShot, NFBaseWeaponFrameLauncherNanotrasen ]
   id: NFWeaponLauncherGrenadeNfsd
   name: NGP-40 projector
   description: Single shot grenade launcher able to lob both grenades and darts!
+=======
+  name: TSFMC grenade launcher
+  parent: [BaseC2ContrabandUnredeemable, WeaponLauncherChinaLake]
+  id: WeaponLauncherNfsdLake
+  description: Able to lob both grenades and darts!
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Launchers/nfsd_lake.rsi

@@ -79,8 +79,13 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNfsd
+<<<<<<< HEAD
   name: Colsec jumpsuit
   description: A long sleeved jumpsuit produced for deputy sheriffs. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
+=======
+  name: TSFMC jumpsuit
+  description: A long sleeved jumpsuit produced for deputy colonels. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_jump.rsi
@@ -90,8 +95,13 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNfsdShort
+<<<<<<< HEAD
   name: Colsec jumpsuit
   description: A short sleeved jumpsuit produced for deputy sheriffs. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
+=======
+  name: TSFMC jumpsuit
+  description: A short sleeved jumpsuit produced for deputy colonels. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_jump_short.rsi
@@ -101,7 +111,11 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNfsdTacBlack
+<<<<<<< HEAD
   name: Colsec tactical jumpsuit
+=======
+  name: TSFMC tactical jumpsuit
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: A tactical jumpsuit for deputies in the field.
   components:
   - type: Sprite
@@ -112,7 +126,11 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNfsdTacGray
+<<<<<<< HEAD
   name: Colsec tactical jumpsuit
+=======
+  name: TSFMC tactical jumpsuit
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: A tactical jumpsuit for deputies in the field.
   components:
   - type: Sprite
@@ -123,7 +141,11 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNfsdTacCamo
+<<<<<<< HEAD
   name: Colsec tactical jumpsuit
+=======
+  name: TSFMC tactical jumpsuit
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: A tactical jumpsuit for deputies in the field.
   components:
   - type: Sprite
@@ -134,7 +156,11 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNfsdTacCream
+<<<<<<< HEAD
   name: Colsec tactical jumpsuit
+=======
+  name: TSFMC tactical jumpsuit
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: A tactical jumpsuit for deputies in the field.
   components:
   - type: Sprite

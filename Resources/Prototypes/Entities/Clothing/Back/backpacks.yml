@@ -116,7 +116,11 @@
   parent: NFClothingBackpack # Frontier: ClothingBackpack<NFClothingBackpack # Frontier: removed BaseCommandContraband
   id: ClothingBackpackCaptain
   name: captain's backpack
+<<<<<<< HEAD
   description: It's a special backpack made exclusively for Nanotrasen officers.
+=======
+  description: It's a special backpack made exclusively for TSF officers.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/captain.rsi

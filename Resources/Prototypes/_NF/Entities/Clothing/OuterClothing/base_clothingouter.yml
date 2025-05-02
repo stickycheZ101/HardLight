@@ -12,3 +12,8 @@
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 10000
   - type: HeldSpeedModifier
+<<<<<<< HEAD
+=======
+  - type: PirateBountyItem
+    id: ClothingOuterHardsuitTacsuit
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))

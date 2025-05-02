@@ -1,9 +1,16 @@
 ##Grenade fills
 - type: entity
+<<<<<<< HEAD
   name: box of Colsec items
   parent: BoxCardboard
   id: BoxBundleNfsd
   description: A box full of Colsec items.
+=======
+  name: box of TSFMC items
+  parent: BoxCardboard
+  id: BoxBundleNfsd
+  description: A box full of TSFMC items.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:

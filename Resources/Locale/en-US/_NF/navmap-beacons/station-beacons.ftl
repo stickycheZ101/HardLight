@@ -1,7 +1,7 @@
 station-beacon-atm = ATM
 station-beacon-shipyard = Shipyard
-station-beacon-sr-office = SR's Office
-station-beacon-sr-quarters = SR's Quarters
+station-beacon-sr-office = CL's Office
+station-beacon-sr-quarters = CL's Quarters
 
 station-beacon-cargobay-one = Cargo Bay 1
 station-beacon-cargobay-two = Cargo Bay 2
@@ -11,8 +11,13 @@ station-beacon-shops = Shops
 station-beacon-vending-machines = Vend
 station-beacon-transit-shuttle = Bus Stop
 station-beacon-dock = Dock
+<<<<<<< HEAD
 station-beacon-Colsec = Colsec
 station-beacon-Colsec-brig = Brig
+=======
+station-beacon-nfsd = TSFMC
+station-beacon-nfsd-brig = Brig
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 station-beacon-cafe = Cafe
 station-beacon-conference = Conference
 station-beacon-office-mercenary = Office

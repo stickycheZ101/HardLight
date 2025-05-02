@@ -12,11 +12,19 @@ alert-level-green = Green - FADE OUT
 alert-level-green-announcement = The sector is now considered safe, return to operations as normal.
 alert-level-green-instructions = Do your job.
 
+<<<<<<< HEAD
 alert-level-blue = Blue - DOUBLE TAKE
 # alert-level-blue-announcement = There is a confirmed threat to the station. Security should perform random checks. Crewmembers are advised to be vigilant and report suspicious activity to security.
 # alert-level-blue-instructions = Crewmembers are advised to be vigilant and report suspicious activity to security.
 alert-level-blue-announcement = There is a confirmed threat to the sector. Crews are advised to be vigilant and report suspicious activity to NFSD officers.
 alert-level-blue-instructions = Crews are advised to be vigilant and report suspicious activity to NFSD officers.
+=======
+alert-level-blue = Blue
+# alert-level-blue-announcement = There is a confirmed threat to TSF rogue space. Security should perform random checks. Crewmembers are advised to be vigilant and report suspicious activity.
+# alert-level-blue-instructions = Crewmembers are advised to be vigilant and report suspicious activity.
+alert-level-blue-announcement = There is a confirmed threat to TSF rogue space. Crews are advised to be vigilant and report suspicious activity to TSFMC officers.
+alert-level-blue-instructions = Crews are advised to be vigilant and report suspicious activity to TSFMC officers.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 alert-level-red = Red - ROUND HOUSE
 # alert-level-red-announcement = There is an immediate threat to the station. Security should prepare to use lethal force if necessary. Crewmembers should find a safe place to shelter in, and are advised to follow any present authorities.
@@ -39,7 +47,11 @@ alert-level-yellow-instructions = Crews are advised to stay away from the threat
 alert-level-gamma = Gamma - FAST PACE
 # alert-level-gamma-announcement = Colonial Command has ordered the Gamma security level on the station. Security is to have weapons equipped at all times, and all civilians are to immediately seek their nearest head for transportation to a secure location.
 # alert-level-gamma-instructions = All civilians are to immediately seek their nearest head for transportation to a secure location.
+<<<<<<< HEAD
 alert-level-gamma-announcement = Colonial Command has ordered the Gamma security level in the sector. NFSD officers are to be on high alert, and crews are to avoid areas of conflict where possible.
+=======
+alert-level-gamma-announcement = Central Command has ordered the Gamma security level in the sector. TSFMC officers are to be on high alert, and crews are to avoid areas of conflict where possible.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 alert-level-gamma-instructions = Crews are to avoid areas of conflict where possible.
 
 alert-level-delta = Delta - COCKED PISTOL

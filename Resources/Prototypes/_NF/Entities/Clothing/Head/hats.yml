@@ -142,8 +142,13 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatNfsdBeretGreen
+<<<<<<< HEAD
   name: Colsec beret
   description: A green beret for use by Colsec officers.
+=======
+  name: TSFMC beret
+  description: A green beret for use by TSFMC officers.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hats/nfsd_beret_green.rsi
@@ -154,8 +159,13 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatNfsdBeretBrown
+<<<<<<< HEAD
   name: Colsec beret
   description: A brown beret for use by Colsec officers.
+=======
+  name: TSFMC beret
+  description: A brown beret for use by TSFMC officers.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hats/nfsd_beret_brown.rsi
@@ -166,8 +176,13 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatNfsdBeretCream
+<<<<<<< HEAD
   name: Colsec beret
   description: A cream beret for use by Colsec officers.
+=======
+  name: TSFMC beret
+  description: A cream beret for use by TSFMC officers.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hats/nfsd_beret_cream.rsi
@@ -178,7 +193,11 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatNfsdCampaign
+<<<<<<< HEAD
   name: Colsec campaign hat
+=======
+  name: TSFMC campaign hat
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Yeehaw, partner.
   components:
   - type: Sprite
@@ -207,7 +226,11 @@
 - type: entity
   parent: ClothingHeadHatNfsdCampaign
   id: ClothingHeadHatNfsdCampaignFilled
+<<<<<<< HEAD
   name: Colsec campaign hat
+=======
+  name: TSFMC campaign hat
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Yeehaw, partner.
   suffix: Filled
   components:
@@ -220,7 +243,11 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatNfsdSmallCampaign
+<<<<<<< HEAD
   name: Colsec campaign cap
+=======
+  name: TSFMC campaign cap
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: All yee, no haw.
   components:
   - type: Sprite

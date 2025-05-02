@@ -1,7 +1,11 @@
 - type: entity
   parent: BaseWhistle
   id: NfsdWhistle
+<<<<<<< HEAD
   name: Colsec whistle
+=======
+  name: TSFMC whistle
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: The sound of it makes criminals tremble.
   components:
   - type: Sprite

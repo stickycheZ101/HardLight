@@ -12,9 +12,15 @@
   id: Grifty
   parent: BasePOI
   name: "Grifty's Gas n Grub"
+<<<<<<< HEAD
   minimumDistance: 3250
   maximumDistance: 5600
   spawnGroup: MarketStation
+=======
+  minimumDistance: 6250
+  maximumDistance: 8600
+  spawnGroup: Scrapyard
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   gridPath: /Maps/_NF/POI/grifty.yml
   addComponents:
   - type: StationTransit

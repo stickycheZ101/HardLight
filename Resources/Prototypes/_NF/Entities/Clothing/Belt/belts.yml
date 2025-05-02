@@ -65,7 +65,11 @@
 - type: entity
   parent: [ BaseC2ContrabandUnredeemable, ClothingBeltAssault ]
   id: ClothingBeltNfsd
+<<<<<<< HEAD
   name: Colsec belt
+=======
+  name: TSFMC belt
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: A tactical assault belt.
   components:
   - type: Sprite
@@ -76,7 +80,11 @@
 - type: entity
   parent: [ BaseC2ContrabandUnredeemable, ClothingBeltSecurityWebbing ]
   id: ClothingBeltNfsdWebbing
+<<<<<<< HEAD
   name: Colsec webbing
+=======
+  name: TSFMC webbing
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: A tactical assault webbing.
   components:
   - type: Sprite

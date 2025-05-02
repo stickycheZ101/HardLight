@@ -19,9 +19,15 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyNfsd
+<<<<<<< HEAD
   name: Colsec encryption key
   categories: [ DoNotMap ]
   description: An encryption key for the New Frontier Sheriff's Department channel.
+=======
+  name: TSFMC encryption key
+  categories: [ DoNotMap ]
+  description: An encryption key for the TSFMC channel.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: EncryptionKey
     channels:

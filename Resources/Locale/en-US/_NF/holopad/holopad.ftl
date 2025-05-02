@@ -12,8 +12,14 @@ nf-holopad-general-trade-station-stc = Trade Station - Traffic Control
 nf-holopad-general-trade-station-cafeteria = Trade Station - Cafeteria
 nf-holopad-general-medical-dispatch = Medical Dispatch - Reception
 nf-holopad-general-medical-dispatch-doc = Medical Dispatch - DoC's Office
+<<<<<<< HEAD
 nf-holopad-general-Colsec-sheriff-office = Colsec - Sheriff's Office
 nf-holopad-general-Colsec-reception = Colsec - Reception
 nf-holopad-general-Colsec-lobby = Colsec - Main Lobby
+=======
+nf-holopad-general-nfsd-sheriff-office = TSFMC-FOB - Colonel's Office
+nf-holopad-general-nfsd-reception = TSFMC-FOB - Reception
+nf-holopad-general-nfsd-lobby = TSFMC-FOB - Main Lobby
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 nf-holopad-general-edison-reception = Edison Power Plant - Reception
 nf-holopad-general-tinnia = Tinnia's Rest

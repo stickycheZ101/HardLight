@@ -1,7 +1,11 @@
 - type: entity
   parent: AirlockExternalGlass
   id: AirlockExternalGlassNfsd
+<<<<<<< HEAD
   suffix: NFSD, Glass 
+=======
+  suffix: TSFMC, Glass
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Structures/Doors/Airlocks/Glass/externalnfsd.rsi

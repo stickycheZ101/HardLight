@@ -18,22 +18,35 @@ adventure-webhook-footer =
 nf-adventure-title = Adventure
 nf-adventure-description = Join a ship crew or buy your own and explore, research, salvage, or haul your way to riches!
 
+<<<<<<< HEAD
 nf-pirate-title = Relaxed
 nf-pirate-description = A more Relaxed round with roleplay in mind. 
 
 nf-test-title = Test
 nf-test-description = A preset intended for testing. No POIs, no bluespace events, final destination.
+=======
+nf-pirate-title = Colonial Expansion
+nf-pirate-description = A TSF-Rogue Sector warfront far away is taking place, leaving wrecks everywhere for salvage. Careful, rogue insurgents are about.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 currency = Spesos
 
 shipyard-rules-default1 =
+<<<<<<< HEAD
     Thank you for your interest in Nanotrasen Security Forces.
+=======
+    Thank you for your interest in TSF Security Forces.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
     By purchasing a Security vessel, you agree to enforce Space Law
     as found at https://frontierstation.wiki.gg/wiki/Space_Law
 shipyard-rules-default2 =
     Any actions performed by you or you crew that violate Space Law
     can and will result in administrative action.
+<<<<<<< HEAD
     Thank you for choosing Nanotrasen Security Forces.
+=======
+    Glory to the TSF Security Forces!
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 shuttle-ftl-proximity = Nearby objects too massive for FTL!
 shuttle-ftl-invalid = Invalid ship for FTL!

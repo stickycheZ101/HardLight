@@ -245,6 +245,7 @@ figurines-nukie-3 = The nuke makes boom.
 figurines-nukie-4 = What's the code?
 figurines-nukie-5 = Commander...? ...That's a balloon...
 
+<<<<<<< HEAD
 figurines-nukie-elite-1 = Not a word in nanotrasen.
 figurines-nukie-elite-2 = THAT'S A KEG!
 figurines-nukie-elite-3 = Guys are you alive?
@@ -257,6 +258,13 @@ figurines-nukie-commander-2 = Fuckin' flukies.
 figurines-nukie-commander-3 = The syndicate sends its regards.
 figurines-nukie-commander-4 = Failure is not an option.
 figurines-nukie-commander-5 = Whoops.
+=======
+figurines-nukie-elite-1 = Not a word in TSF Space.
+figurines-nukie-elite-2 = THIS IS ROGUE SPACE!
+figurines-nukie-elite-3 = The grunts don't live beyond fifty!
+
+figurines-nukie-commander-1 = Death to the TSF!
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 figurines-footsoldier-1 = I'm an evil boy. Less boy every day, more evil every day.
 figurines-footsoldier-2 = Who will you choose? Them or us? Us or them?

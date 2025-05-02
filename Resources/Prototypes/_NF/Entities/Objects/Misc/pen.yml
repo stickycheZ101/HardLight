@@ -2,7 +2,11 @@
   name: public affairs pen
   parent: PenEmbeddable
   id: PublicAffairsPen
+<<<<<<< HEAD
   description: A weighty fountain pen for Colsec paperwork wizards. Writes in a thin blue line.
+=======
+  description: A weighty fountain pen for TSF desk jockies. Writes in a thin blue line.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Objects/Misc/pens.rsi

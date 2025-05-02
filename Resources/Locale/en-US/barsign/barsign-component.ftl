@@ -102,7 +102,11 @@ barsign-prototype-description-maltroach = Squeak!
 
 ## Whiskey Echoes
 barsign-prototype-name-whiskeyechoes = Whiskey Echoes
+<<<<<<< HEAD
 barsign-prototype-description-whiskeyechoes = An elite bar for elite oper-wait, this is a Nanotrasen station. Why's this sign in the database?
+=======
+barsign-prototype-description-whiskeyechoes = An elite bar for elite oper-wait, this is a TSF region. Why's this sign in the database?
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 ## EmpBarSign
 barsign-prototype-description-empbarsign = Something has gone very wrong.

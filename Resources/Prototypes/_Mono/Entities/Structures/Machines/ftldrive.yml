@@ -11,7 +11,7 @@
   id: MachineFTLDrive
   parent: BaseMachinePowered
   name: CTLA-25 bluespace drive
-  description: A FTL drive that extends a ship's FTL range to ~2.5 kilometers.
+  description: A FTL drive that extends a ship's FTL range to ~5 kilometers. Does not stack.
   placement:
     mode: SnapgridCenter
   components:
@@ -31,6 +31,7 @@
         color: "#349BEB"
     - type: FTLDrive
       range: 5000
+<<<<<<< HEAD
       thermalSignature: 2000000 # ~2828m range
     - type: ThermalSignature
     - type: Destructible
@@ -67,6 +68,8 @@
       maxIntensity: 4000
       intensitySlope: 4
       totalIntensity: 300
+=======
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
     - type: ApcPowerReceiver
       powerLoad: 2000
     - type: PointLight
@@ -103,6 +106,7 @@
         machine_parts: !type:Container
     - type: PirateBountyItem
       id: FTLDrive
+<<<<<<< HEAD
 
 - type: entity
   parent: MachineFTLDrive
@@ -166,3 +170,5 @@
     energy: 1.5
   - type: Machine
     board: MachineDriveCTLA25sCircuitboard
+=======
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))

@@ -57,10 +57,19 @@
 
 [color=#a4885c]1.7[/color][color=#00fffb]Don't evade bans. [/color]*2 
 
+<<<<<<< HEAD
 [color=#a4885c]1.8[/color] Don't self antag. *2 
+=======
+[color=#a4885c][head=3]9. Security Forces and Station Staff roles are held to a higher standard of roleplay and are strictly non-antagonists.[/head][/color]
+	• Security Forces roleplaying as ‘bad cops’ and intentionally violating space law is forbidden. Space Law is not optional for these roles, and strong knowledge is required before taking a security position.
+	• Civilian and Security staff are expected to maintain a minimum of competency and performance on their jobs. Security staff must follow NFSD Standard Operating Procedure (see Wiki in the menu for more details).
+	• Assets seized from criminals may only be used to make victims whole and to pay for any fines under the law. Any excess financials received from the sale of criminal assets is to be returned to their original owners, and are not to be plundered or extorted by security forces. This is a strict zero-tolerance policy.
+	• All players that are hired on as crew to the station as security or service staff, or through other direct jobs working for paychecks from the station, are considered non-antags and official TSF personnel. Engaging in any hostile antagonistic activities, or abuse of the equipment provided while working in these roles, is strictly prohibited.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 [color=#a4885c]1.9[/color][color=#00fffb] Don't ragequit/disconnect to avoid consequences. [/color]*2 
 
+<<<<<<< HEAD
 [color=#a4885c]1.10[/color][color=#00fffb] Cheating and exploits are forbidden. [/color]*3 
 
 [color=#a4885c]1.11[/color][color=#00fffb] Respect others OOC consent and preferences. [/color]*3 
@@ -196,3 +205,18 @@ Leeway is given to theatrical roles such as the clown, boxer, and mime; these ro
 
 [color=#a4885c]12.4[/color] Don't intentionally round remove other players unless related to an objective. *1
 
+=======
+[color=#a4885c][head=3]11. Follow Escalation Guidelines[/head][/color]
+	• Antagonistic ghost roles, and pest ghost roles like mice are always fair game for attack. Don't grief TSF-aligned and Nanotrasen-aligned ghost roles like familiars, drones, or pets without provocation.
+	• Do not attack another player without a legitimate, explainable roleplay reason that could be applied in a similar, real-life scenario. A fistfight does not suddenly escalate into a gunfight.
+	• If a fight results in someone being critically injured or killed, seek medical help for them.
+	• If at any point combat is disengaged and both parties leave the area, you cannot skip escalation and plunge back into a fight. What’s done is done.
+	• Security Forces are expected to resolve situations with non-lethal force and to de-escalate IC confrontation except in cases where there is a reasonable chance of harm/death.
+	• Do not End of Round Grief (EORG), attacking/killing/griefing other players is not permitted after the shift ends.
+
+[color=#a4885c][head=3]12. Follow PVP & Piracy Guidelines[/head][/color]
+	• Pirates/antagonists must ahelp before starting a crew and receive permission to begin antag activity. Spamming ahelp asking to be a pirate or pirating without permission will likely lead to being banned.
+	• Pirate crews may never exceed a total force of four members, including the Captain.
+	• Non-hostile vessels that surrender: cannot be killed, left stranded, completely bankrupt, or otherwise. The safety of non-hostile merchant vessels is to be guaranteed by all parties. All vessels being boarded must first attempt to negotiate before any hostile actions may take place.
+	• Hostile forces that are known, declared, and confirmed, may be considered 'belligerent', boarded non-conventionally, and have their systems disabled in attempts to bring them to justice. All suspects taken alive must be adequately cared for and unharmed according to Space Law.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))

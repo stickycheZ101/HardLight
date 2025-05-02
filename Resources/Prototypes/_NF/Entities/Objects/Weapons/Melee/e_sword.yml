@@ -1,5 +1,9 @@
 - type: entity
+<<<<<<< HEAD
   name: Colsec energy sword
+=======
+  name: TSFMC energy sword
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   parent: [BaseC2ContrabandUnredeemable, EnergySword]
   id: EnergySwordNfsd
   description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.

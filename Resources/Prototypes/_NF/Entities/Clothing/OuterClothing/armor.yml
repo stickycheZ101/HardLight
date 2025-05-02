@@ -54,7 +54,11 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseC2ContrabandUnredeemable ]
   id: ClothingOuterArmorNfsd
+<<<<<<< HEAD
   name: Colsec armor
+=======
+  name: TSFMC armor
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Get shot, maybe survive?
   components:
   - type: Sprite

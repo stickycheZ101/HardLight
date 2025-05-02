@@ -35,16 +35,26 @@ frontier-lobby-exped-description = This is base camp for mercenaries and alike. 
    - Socialize with other mercenaries - or not.
 
 frontier-lobby-medical-subtext = The medical dispatch hub and search and rescue center.
+<<<<<<< HEAD
 frontier-lobby-medical-description = Frontier's medical dispatch hub. Here you can:
+=======
+frontier-lobby-medical-description = TSF medical dispatch hub. Here you can:
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
    - Start or find a medical response crew
    - Socialize with other medics
    - Purchase medical specialist ships
    - Drop off medical bounties
  Some of the roles on this station are whitelist-only and require an application in the discord to be accepted.
 
+<<<<<<< HEAD
 frontier-lobby-Colsec-subtext = The center of operations for the Sheriffs department.
 frontier-lobby-Colsec-description = The New Frontier Sheriff's Department is the center of operations for the Sheriffs department. Here you can:
    - Join the Sheriffs department
+=======
+frontier-lobby-nfsd-subtext = The center of operations for the TSFMC.
+frontier-lobby-nfsd-description = The TFSMC-FOB is the center of operations for the TSF's armed expansion into the rogue. Here you can:
+   - Join the TSFMC department
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
    - Apply for a bounty hunting license
    - Report crimes
 
@@ -52,6 +62,7 @@ frontier-lobby-pirate-subtext = Where "X" marks the spot and rum never runs dry.
 frontier-lobby-pirate-description = This is the ultimate hideout where scallywags and pirates gather. Here you can:
    - Start a pirate crew
    - Find a crew to join
+<<<<<<< HEAD
    - Socialize with other pirates
  The roles on this station are whitelist-only and require an application in the discord to be accepted.
 
@@ -61,3 +72,6 @@ frontier-lobby-crew-class-prefix = [bold][color=#A88B5E]Classes:[/color][/bold]{
 frontier-lobby-crew-size = [bold][color=#A88B5E]Size:[/color][/bold] {$size}
 frontier-lobby-crew-class-advertisement = [bold][color=#A88B5E]Advertisement:[/color][/bold]
 frontier-lobby-crew-only-hide-jobless = Hide jobless ships
+=======
+   - Socialize with other rogue sector insurgents
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))

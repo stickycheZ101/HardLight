@@ -44,5 +44,9 @@ dock-label-trade-seven-c = D7C
 dock-label-bus = Bus Dock
 dock-label-janitor = Jani
 dock-label-guard = Guard
+<<<<<<< HEAD
 dock-label-Colsec = Colsec
+=======
+dock-label-nfsd = TSFMC
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 dock-label-drive-thru = McDrive Thru

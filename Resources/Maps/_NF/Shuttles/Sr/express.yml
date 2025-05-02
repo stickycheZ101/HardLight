@@ -29,7 +29,11 @@ entities:
   - uid: 1
     components:
     - type: MetaData
+<<<<<<< HEAD:Resources/Maps/_NF/Shuttles/Sr/express.yml
       name: grid
+=======
+      name: TSF Arachnid
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320)):Resources/Maps/_Mono/Shuttles/Service/arachnid.yml
     - type: Transform
       pos: -0.546875,-0.484375
       parent: invalid

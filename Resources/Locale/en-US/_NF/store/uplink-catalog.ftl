@@ -1,5 +1,6 @@
 # region Security
 uplink-security-hardsuit-name = Bronze Patrol Suit
+<<<<<<< HEAD
 uplink-security-hardsuit-desc = The standard-issue Colsec space proof suit for patrol duty. This bronze variant has cadet rank markings.
 
 uplink-security-hardsuit-patrol-name = Silver Patrol Suit
@@ -23,6 +24,23 @@ uplink-security-hardsuit-combat-desc = A heavily armored Colsec suit. Space proo
 uplink-security-hardsuit-commmand-name = Command Combat Suit
 uplink-security-hardsuit-commmand-desc = A heavily armored Colsec suit. Space proof, with thick armor plating at the expense of mobility. This variant has supervisor rank markings.
 
+=======
+uplink-security-hardsuit-desc = The standard-issue TSFMC space proof suit for patrol duty. This bronze variant has cadet rank markings.
+uplink-security-hardsuit-patrol-name = Silver Patrol Suit
+uplink-security-hardsuit-patrol-desc = The standard-issue TSFMC space proof suit for patrol duty. This silver variant has officer rank markings.
+uplink-security-hardsuit-brigmedic-name = Brigmedic Patrol Suit
+uplink-security-hardsuit-brigmedic-desc = The standard-issue TSFMC space proof suit for patrol duty. This brighter variant has brigmedic rank markings.
+uplink-security-hardsuit-warden-name = Gold Patrol Suit
+uplink-security-hardsuit-warden-desc = The standard-issue TSFMC space proof suit for patrol duty. This gold variant has supervisor rank markings.
+uplink-security-hardsuit-experimental-name = Experimental Combat Suit
+uplink-security-hardsuit-experimental-desc = A very heavily armored TSFMC suit. This space proof marvel of engineering uses state of the art alloys to provide immense protection while sacrificing little mobility.
+uplink-security-hardsuit-sheriff-name = Colonel's Patrol Suit
+uplink-security-hardsuit-sheriff-desc = The standard-issue TSFMC space proof suit for patrol duty. This gold variant has colonel rank markings.
+uplink-security-hardsuit-combat-name = Combat Suit
+uplink-security-hardsuit-combat-desc = A heavily armored TSFMC suit. Space proof, with thick armor plating at the expense of mobility.
+uplink-security-hardsuit-commmand-name = Command Combat Suit
+uplink-security-hardsuit-commmand-desc = A heavily armored TSFMC suit. Space proof, with thick armor plating at the expense of mobility. This variant has supervisor rank markings.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 uplink-security-lethalarmory-name = Lethal Armory Stock Crate
 uplink-security-lethalarmory-desc = A crate containing weapons necessary to fill an armory.
 
@@ -74,6 +92,7 @@ uplink-security-holo-desc = A battery powered holoprojecter that places temporar
 
 uplink-security-jetpack-name = Jetpack
 uplink-security-jetpack-desc = A pre-filled jetpack for EVA. Comes in a fashionable green.
+<<<<<<< HEAD
 
 uplink-security-magboots-name = Colsec Magboots
 uplink-security-magboots-desc = Light weight magboots designed to keep the wearer grounded in low and no gravity environments.
@@ -84,6 +103,14 @@ uplink-security-techfab-desc = A circuit board for a Colsec Techfab. Allows the 
 uplink-security-key-name = Colsec Encryption Keys
 uplink-security-key-desc = A box of 4 encryption keys that give access to the Colsec radio channel.
 
+=======
+uplink-security-magboots-name = TSFMC Magboots
+uplink-security-magboots-desc = Light weight magboots designed to keep the wearer grounded in low and no gravity environments.
+uplink-security-techfab-name = TSFMC Techfab
+uplink-security-techfab-desc = A circuit board for a TSFMC Techfab. Allows the production of ammunition, magazines, weapons, and numerous other utilities. Uses raw resources. Can be upgraded.
+uplink-security-key-name = TSFMC Encryption Keys
+uplink-security-key-desc = A box of 4 encryption keys that give access to the TSFMC radio channel.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 uplink-security-emprocket-name = EMP Rocket
 uplink-security-emprocket-desc = An EMP rocket for the RPG-7.
 uplink-security-Magazine9x19mmPistolFMJ-name = 9x19mm Pistol Magazines
@@ -184,10 +211,15 @@ uplink-security-stingergrenade-box-desc = A box containing 4 stinger grenades.
 
 uplink-security-breachingcharge-box-name = Breaching Charge Box
 uplink-security-breachingcharge-box-desc = A box containing 4 breaching charges.
+<<<<<<< HEAD
 
 uplink-security-hoverbike-name = Colsec Hoverbike Flatpack
 uplink-security-hoverbike-desc = Flatpack containing Colsec issued turbine with bike handles. Keys already slotted in the ignition. Very safe.
 
+=======
+uplink-security-hoverbike-name = TSFMC Hoverbike Flatpack
+uplink-security-hoverbike-desc = Flatpack containing TSFMC issued turbine with bike handles. Keys already slotted in the ignition. Very safe.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 uplink-security-trackingdart-bundle-name = Tracking Dart Bundle
 uplink-security-trackingdart-bundle-desc = A bundle containing a Lake type launcher, 3 tracking darts and 3 pinpointers.
 
@@ -280,8 +312,12 @@ uplink-pirate-graygrenade-name = Gray Pirate Grenade
 uplink-pirate-graygrenade-desc = A solid grenade that feels like a cannonball.
 
 uplink-pirate-accessconfigurator-captain-name = Black Market Access Configurator
+<<<<<<< HEAD
 uplink-pirate-accessconfigurator-captain-desc = An access configurator that is sold on the black market. Lock ya booty behind pirate access today!
 
+=======
+uplink-pirate-accessconfigurator-captain-desc = An access Configurator only sold on the rogue sector market. Lock TSF contraband behind rogue access, today!
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 uplink-pirate-radio-implanter-name = Radio Implanter
 uplink-pirate-radio-implanter-desc = Implants a Freelance radio, allowing covert communication without a headset.
 
@@ -315,6 +351,7 @@ uplink-mercenary-hardsuit-desc = A suit of space-proof armored vac suit that pro
 uplink-mercenary-hardsuit1-name = Private Security Hardsuit
 uplink-mercenary-hardsuit1-desc = A suit of space-proof armored vac suit that protects against general damage.
 
+<<<<<<< HEAD
 uplink-mercenary-rifle1-name = Surplus Lecter
 uplink-mercenary-rifle1-desc = A tried and true surplus automatic rifle. The benchmark.
 
@@ -410,3 +447,6 @@ uplink-speedloader-magnum-non-ap-desc = A .45 pistol speed loader with 6 .45 pis
 
 uplink-syndicate-segway-name = Syndicate Segway
 uplink-syndicate-segway-desc = Move around in style without dirtying your blood red boots.
+=======
+#Mono End
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))

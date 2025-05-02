@@ -1,7 +1,11 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteNfsd
+<<<<<<< HEAD
   name: Colsec door remote
+=======
+  name: TSFMC door remote
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:

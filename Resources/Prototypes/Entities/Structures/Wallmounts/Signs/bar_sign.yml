@@ -294,7 +294,11 @@
   parent: BaseBarSign
   id: BarSignWhiskeyEchoes
   name: Whiskey Echoes
+<<<<<<< HEAD
   description: An elite bar for elite oper-wait, this is a Nanotrasen station. Why's this sign in the database?
+=======
+  description: An elite bar for elite oper-wait, this is TSF space. Why's this sign in the database?
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: BarSign
     current: WhiskeyEchoes

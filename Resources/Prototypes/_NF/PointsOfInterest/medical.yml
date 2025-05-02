@@ -12,9 +12,15 @@
   id: Medical
   parent: BasePOI
   name: 'Medical Dispatch'
+<<<<<<< HEAD
   minimumDistance: 1650
   maximumDistance: 3400
   spawnGroup: MarketStation
+=======
+  minimumDistance: 2650
+  maximumDistance: 4400
+  spawnGroup: Required
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   gridPath: /Maps/_NF/POI/medical.yml
   addComponents:
   - type: IFF

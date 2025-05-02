@@ -28,7 +28,11 @@ entities:
   - uid: 1
     components:
     - type: MetaData
+<<<<<<< HEAD:Resources/Maps/_HL/Shuttles/Avali/AvaliNest.yml
       name: Nest
+=======
+      name: TSF Solarsail
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320)):Resources/Maps/_Mono/Shuttles/Service/solarsail.yml
     - type: Transform
       pos: -0.65625,-3.2790961
       parent: invalid

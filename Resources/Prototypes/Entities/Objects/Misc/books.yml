@@ -179,7 +179,11 @@
   id: BookEngineersHandbook
   parent: BaseGuidebook
   name: engineer's handbook
+<<<<<<< HEAD
   description: A handbook about engineering written by Nanotrasen.
+=======
+  description: A handbook about engineering written by an TSF-NT senior engineer.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:
@@ -199,7 +203,11 @@
   id: BookScientistsGuidebook
   parent: BaseGuidebook
   name: scientist's guidebook
+<<<<<<< HEAD
   description: A guidebook about science written by Nanotrasen.
+=======
+  description: A guidebook about science written by a TSF-NT scientist.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:
@@ -217,7 +225,11 @@
   id: BookSecurity
   parent: BaseGuidebook
   name: security 101
+<<<<<<< HEAD
   description: A book about security written by Nanotrasen. The book is stained with blood. It seems to have been used more as a weapon than reading material.
+=======
+  description: A book about security written by a washed-out TSF-NT detective. The book is stained with blood. It seems to have been used more as a weapon than reading material.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:

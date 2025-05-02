@@ -1038,7 +1038,11 @@
 - type: entity
   id: NFPouchNfsd
   parent: NFPouchUtility
+<<<<<<< HEAD
   name: Colsec pouch
+=======
+  name: TSFMC pouch
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:

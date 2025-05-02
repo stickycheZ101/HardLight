@@ -9,12 +9,22 @@ advertisement-lesslethalvend-8 = Less Lethal (tm) means more FUN
 advertisement-lesslethalvend-9 = BUY BUY BUY BUY NOW!
 advertisement-lesslethalvend-10 = Only a complete idiot buys lethal, go Less Lethal (tm) TODAY!
 advertisement-lesslethalvend-11 = Beat those evildoers with a stick. NOW
+<<<<<<< HEAD
 advertisement-lesslethalvend-12 = Proudly parnered with the Colsec
 advertisement-lesslethalvend-13 = Vote Space Kennidy, sponsored by the Less Lethal Group
+=======
+advertisement-lesslethalvend-12 = Proudly partnered with the TSFMC
+advertisement-lesslethalvend-13 = If your home-world has voting, vote! Sponsored by the Less Lethal Group
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 advertisement-lesslethalvend-14 = Less death means we pass the saving on to YOU!
 advertisement-lesslethalvend-15 = Proud to be the No. 1 weapon machine on Frontier Station
 advertisement-lesslethalvend-16 = Warning: do not eat the rubber bullets.
 advertisement-lesslethalvend-17 = Buy the handy dandy beanbag shell. Its organic!
 advertisement-lesslethalvend-18 = Warning: do not eat the beanbag shells.
+<<<<<<< HEAD
 advertisement-lesslethalvend-19 = Buy your rubbers here TODAY!
 advertisement-lesslethalvend-20 = Could you be our 1,000,000th customer?
+=======
+advertisement-lesslethalvend-19 = Glory to the nations of the Trans-Solar Federation!
+advertisement-lesslethalvend-20 = Could you be our one millionth customer?
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))

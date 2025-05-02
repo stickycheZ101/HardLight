@@ -1,7 +1,11 @@
 - type: entity
   parent: [ HoloprojectorSecurity, BaseC2ContrabandUnredeemable ]
   id: HoloprojectorNfsd
+<<<<<<< HEAD
   name: Colsec holobarrier projector
+=======
+  name: TSFMC holobarrier projector
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Creates a solid but fragile holographic barrier.
   components:
   - type: Sprite

@@ -12,9 +12,15 @@
   id: ThePit
   parent: BasePOI
   name: "The Pit"
+<<<<<<< HEAD
   minimumDistance: 2200
   maximumDistance: 4200
   spawnGroup: MarketStation
+=======
+  minimumDistance: 5200
+  maximumDistance: 6200
+  spawnGroup: Arena
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   gridPath: /Maps/_NF/POI/arena.yml
   addComponents:
   - type: StationTransit

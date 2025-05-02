@@ -797,7 +797,11 @@
 - type: entity
   parent: ClothingBackpackMessengerContractor
   id: ClothingBackpackMessengerNfsdBrown
+<<<<<<< HEAD
   name: Colsec messenger bag
+=======
+  name: TSFMC messenger bag
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Back/Messenger/color.rsi
@@ -842,7 +846,11 @@
 - type: entity
   parent: ClothingBackpackMessengerContractor
   id: ClothingBackpackMessengerNfsdCream
+<<<<<<< HEAD
   name: Colsec messenger bag
+=======
+  name: TSFMC messenger bag
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Back/Messenger/color.rsi

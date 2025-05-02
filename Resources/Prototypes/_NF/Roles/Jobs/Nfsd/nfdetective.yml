@@ -20,6 +20,7 @@
   displayWeight: 20
   setPreference: false # Frontier
   canBeAntag: false
+  setPreference: false # mono
   access:
   - Detective
   accessGroups:

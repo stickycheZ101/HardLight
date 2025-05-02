@@ -27,7 +27,11 @@
 - type: entity
   parent: ClothingHandsGlovesCombat
   id: ClothingHandsGlovesCombatNfsdBrown
+<<<<<<< HEAD
   name: Colsec combat gloves
+=======
+  name: TSFMC combat gloves
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Insulated gloves for a deputy sheriff.
   components:
   - type: Sprite
@@ -40,7 +44,11 @@
 - type: entity
   parent: ClothingHandsGlovesCombatNfsdBrown
   id: ClothingHandsGlovesCombatNfsdCream
+<<<<<<< HEAD
   name: Colsec combat gloves
+=======
+  name: TSFMC combat gloves
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Insulated gloves for a deputy sheriff.
   components:
   - type: Sprite

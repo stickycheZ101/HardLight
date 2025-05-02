@@ -12,7 +12,11 @@
 - type: entity
   parent: Airlock
   id: AirlockNfsd
+<<<<<<< HEAD
   suffix: NFSD
+=======
+  suffix: TSFMC
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Structures/Doors/Airlocks/Standard/nfsd.rsi
@@ -33,7 +37,11 @@
 - type: entity
   parent: AirlockGlass
   id: AirlockNfsdGlass
+<<<<<<< HEAD
   suffix: NFSD
+=======
+  suffix: TSFMC
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Structures/Doors/Airlocks/Glass/nfsd.rsi

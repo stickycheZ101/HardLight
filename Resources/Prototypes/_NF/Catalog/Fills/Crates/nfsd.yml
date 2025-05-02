@@ -1,7 +1,11 @@
 - type: entity
   id: CrateNfsdArmor
   parent: CrateNfsdSecure1
+<<<<<<< HEAD
   name: Colsec armor crate
+=======
+  name: TSFMC armor crate
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Three vests of well-rounded, decently-protective armor. Requires Security access to open.
   components:
   - type: StorageFill
@@ -12,7 +16,11 @@
 - type: entity
   id: CrateNfsdHelmet
   parent: CrateNfsdSecure1
+<<<<<<< HEAD
   name: Colsec helmet crate
+=======
+  name: TSFMC helmet crate
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Contains three standard-issue brain buckets. Requires Security access to open.
   components:
   - type: StorageFill
@@ -23,7 +31,11 @@
 - type: entity
   id: CrateNfsdNonlethal
   parent: CrateNfsdSecure1
+<<<<<<< HEAD
   name: Colsec nonlethals crate
+=======
+  name: TSFMC nonlethals crate
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Disabler weapons. Requires Security access to open.
   components:
   - type: StorageFill
@@ -41,7 +53,11 @@
 - type: entity
   id: CrateNfsdRiot
   parent: CrateNfsdSecure1
+<<<<<<< HEAD
   name: Colsec swat crate
+=======
+  name: TSFMC swat crate
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Contains two sets of riot armor, helmets, shields, and enforcers loaded with beanbags. Extra ammo is included. Requires Armory access to open.
   components:
   - type: StorageFill
@@ -61,7 +77,11 @@
 - type: entity
   id: CrateNfsdSupplies
   parent: CrateNfsdSecure1
+<<<<<<< HEAD
   name: Colsec supplies crate
+=======
+  name: TSFMC supplies crate
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Contains various supplies for the station's Security team. Requires Security access to open.
   components:
   - type: StorageFill
@@ -75,7 +95,11 @@
 - type: entity
   id: CrateNfsdRestraints
   parent: CrateNfsdSecure2
+<<<<<<< HEAD
   name: Colsec restraints crate
+=======
+  name: TSFMC restraints crate
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Contains two boxes each of handcuffs and zipties. Requires Security access to open.
   components:
   - type: StorageFill
@@ -88,7 +112,11 @@
 - type: entity
   id: CrateNfsdBioSuit
   parent: CrateNfsdSecure2
+<<<<<<< HEAD
   name: Colsec bio suit crate
+=======
+  name: TSFMC bio suit crate
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Contains 2 biohazard suits to ensure that no disease will distract you from your duties. Requires Security access to open.
   components:
   - type: StorageFill
@@ -102,7 +130,11 @@
 
 - type: entity
   id: CrateNfsdImplants
+<<<<<<< HEAD
   name: Colsec implanter crate
+=======
+  name: TSFMC implanter crate
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Contains 4 MindShield implants and 4 tracking implant. Requires Security access to open.
   parent: CrateNfsdSecure2
   components:

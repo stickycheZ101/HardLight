@@ -1,7 +1,11 @@
 - type: entity # Base Badge
   parent: ClothingNeckBase
   id: ClothingNeckNfsdBadge
+<<<<<<< HEAD
   name: Colsec badge
+=======
+  name: TSFMC badge
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Respect my authority!
   abstract: true
   components:
@@ -16,25 +20,37 @@
 - type: entity
   parent: ClothingNeckNfsdBadge
   id: ClothingNeckNfsdBadgeSecurityCadet
+<<<<<<< HEAD
   name: Colsec cadet badge
+=======
+  name: TSFMC cadet badge
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   suffix: Bronze - Cadet
 
 - type: entity
   parent: ClothingNeckNfsdBadge
   id: ClothingNeckNfsdBadgeSecurity
   suffix: Silver - Deputy
+<<<<<<< HEAD
   name: Colsec deputy badge
+=======
+  name: TSFMC deputy badge
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Scarfs/nfsd_silver_badge.rsi
   - type: Clothing
     sprite: _NF/Clothing/Neck/Scarfs/nfsd_silver_badge.rsi
-    
+
 - type: entity
   parent: ClothingNeckNfsdBadge
   id: ClothingNeckNfsdBadgeSecurityBrigmedic
   suffix: Silver - Brigmedic
+<<<<<<< HEAD
   name: Colsec brigmedic badge
+=======
+  name: TSFMC brigmedic badge
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Scarfs/nfsd_silvercross_badge.rsi
@@ -45,7 +61,11 @@
   parent: ClothingNeckNfsdBadge
   id: ClothingNeckNfsdBadgeDetective
   suffix: Silver - Detective
+<<<<<<< HEAD
   name: Colsec detective badge
+=======
+  name: TSFMC detective badge
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Scarfs/nfsd_silver_badge.rsi
@@ -56,7 +76,11 @@
   parent: ClothingNeckNfsdBadge
   id: ClothingNeckNfsdBadgeSeniorOfficer
   suffix: Gold - Sergeant
+<<<<<<< HEAD
   name: Colsec sergeant badge
+=======
+  name: TSFMC sergeant badge
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Scarfs/nfsd_gold_badge.rsi
@@ -67,7 +91,11 @@
   parent: ClothingNeckNfsdBadge
   id: ClothingNeckNfsdBadgeWarden
   suffix: Gold - Bailiff
+<<<<<<< HEAD
   name: Colsec bailiff badge
+=======
+  name: TSFMC bailiff badge
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Scarfs/nfsd_gold_badge.rsi
@@ -77,8 +105,13 @@
 - type: entity
   parent: ClothingNeckNfsdBadge
   id: ClothingNeckNfsdBadgeSheriff
+<<<<<<< HEAD
   suffix: Star - Sheriff
   name: Colsec sheriff badge
+=======
+  suffix: Star - Colonel
+  name: TSFMC colonel badge
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Scarfs/nfsd_star_badge.rsi
@@ -90,7 +123,11 @@
   parent: ClothingNeckBase
   id: ClothingNeckPublicAffairsLiaisonBadge
   name: public affairs liaison badge
+<<<<<<< HEAD
   description: A badge for grade 4 paperwork wizards affiliated with the NFSD.
+=======
+  description: A badge for grade 4 paperwork wizards affiliated with the TSFMC.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Misc/palbadge.rsi

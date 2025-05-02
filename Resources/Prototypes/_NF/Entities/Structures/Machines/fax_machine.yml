@@ -141,11 +141,19 @@
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
   id: FaxMachineNFTradeMallNFSD
+<<<<<<< HEAD
   suffix: POI, Trade NFSD
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
     name: "Trade Mall Colsec Post"
+=======
+  suffix: POI, Trade TSFMC
+  #categories: [ HideSpawnMenu ] # Mono - comment out
+  components:
+  - type: FaxMachine
+    name: "Trade Mall TSFMC Post"
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -195,20 +203,36 @@
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
   id: FaxMachineNFNfsd
+<<<<<<< HEAD
   suffix: POI, NFSD
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
     name: "Colsec Outpost Sheriff"
+=======
+  suffix: POI, TSFMC
+  #categories: [ HideSpawnMenu ] # Mono - comment out
+  components:
+  - type: FaxMachine
+    name: "TSFMC Outpost Colonel"
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
   id: FaxMachineNFNfsdLawyer
+<<<<<<< HEAD
   suffix: POI, NFSD Lawyer
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
     name: "Colsec Outpost Lawyer"
+=======
+  suffix: POI, TSFMC Lawyer
+  #categories: [ HideSpawnMenu ] # Mono - comment out
+  components:
+  - type: FaxMachine
+    name: "TSFMC Outpost Lawyer"
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 - type: entity
   parent: FaxMachineBase

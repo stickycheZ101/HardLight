@@ -13,9 +13,15 @@
   id: McHobo
   parent: BasePOI
   name: Derelict McCargo
+<<<<<<< HEAD
   minimumDistance: 3250
   maximumDistance: 5600
   spawnGroup: MarketStation
+=======
+  minimumDistance: 6250
+  maximumDistance: 7600
+  spawnGroup: Scrapyard
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   gridPath: /Maps/_NF/POI/mchobo.yml
   addComponents:
   - type: StationTransit

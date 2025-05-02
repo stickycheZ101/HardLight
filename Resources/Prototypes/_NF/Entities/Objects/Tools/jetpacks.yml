@@ -2,7 +2,11 @@
 - type: entity
   id: JetpackNfsd
   parent: JetpackSecurity
+<<<<<<< HEAD
   name: Colsec jetpack
+=======
+  name: TSFMC jetpack
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   suffix: Empty
   components:
   - type: Item
@@ -16,7 +20,11 @@
 - type: entity
   id: JetpackNfsdFilled
   parent: JetpackSecurityFilled
+<<<<<<< HEAD
   name: Colsec jetpack
+=======
+  name: TSFMC jetpack
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   suffix: Filled
   components:
   - type: Item

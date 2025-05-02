@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Security Uplink
 store-preset-name-Colsec-uplink = Colsec Uplink Catalogue
 store-category-sechardsuits = EVA Suits
@@ -14,3 +15,7 @@ store-category-pirateutility = Utility
 store-category-pirateammo = Ammunition
 store-category-pirateexplosives = Explosives
 store-preset-name-merc-uplink = MercVend
+=======
+store-preset-name-pirate-uplink = Rogue Uplink
+store-preset-name-nfsd-uplink = TSFMC Uplink
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))

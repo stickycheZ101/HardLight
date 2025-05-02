@@ -45,8 +45,13 @@
 - type: entity
   parent: [ BaseC3ContrabandUnredeemable, ClothingMaskGasSecurity ]
   id: ClothingMaskGasNfsd
+<<<<<<< HEAD
   name: Colsec gas mask
   description: A standard issue Colsec gas mask.
+=======
+  name: TSFMC gas mask
+  description: A standard issue TSFMC gas mask.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Mask/nfsd.rsi
@@ -57,8 +62,13 @@
 - type: entity
   parent: [ BaseC3ContrabandUnredeemable, ClothingMaskGasSwat ]
   id: ClothingMaskGasSheriff
+<<<<<<< HEAD
   name: Colsec sheriff gas mask
   description: A gas mask worthy of a sheriff.
+=======
+  name: TSFMC colonel gas mask
+  description: A gas mask worthy of a colonel.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Mask/nfsd_sheriff.rsi

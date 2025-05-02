@@ -619,7 +619,11 @@
   parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: ClothingUniformSecurityTrooper
   name: trooper uniform
+<<<<<<< HEAD
   description: A formal uniform issued to the Nanotrasen Troopers, usually it comes with a car.
+=======
+  description: A formal uniform issued to the TSF Troopers. It used to come with a car.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/security_trooper.rsi
@@ -774,7 +778,11 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNanotrasen
   name: nanotrasen jumpsuit
+<<<<<<< HEAD
   description: A stately blue jumpsuit to represent NanoTrasen.
+=======
+  description: A stately blue jumpsuit to represent the NT.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/nanotrasen.rsi

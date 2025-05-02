@@ -43,7 +43,11 @@
   parent: PosterBase
   id: NFPosterLegitWantedClarpy
   name: "Wanted: Clarpy"
+<<<<<<< HEAD
   description: Wanted for piracy and assault. If you can help end this biting spree, please contact the Colsec.
+=======
+  description: Wanted for insurgency. Spot them? You can help deal a blow to the Rogue Sector, contact the TSFMC.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Structures/Wallmounts/posters.rsi
@@ -63,7 +67,11 @@
   parent: PosterBase
   id: NFPosterLegitHaveYouSeenThisEgg
   name: "Have You Seen This Egg?"
+<<<<<<< HEAD
   description: Please inform Colsec personnel of any strange sightings like roaming space monsters, gigantic purple eggs, and strange notes left behind posters or vending machines.
+=======
+  description: Please inform TSF personnel of any strange sightings like roaming space monsters, gigantic purple eggs, and strange notes left behind posters or vending machines.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Structures/Wallmounts/posters.rsi

@@ -10,7 +10,11 @@
 - type: entity
   parent: ClothingBackpackDuffelSecurity
   id: ClothingBackpackDuffelNfsdBrown
+<<<<<<< HEAD
   name: Colsec duffel
+=======
+  name: TSFMC duffel
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Back/Duffels/nfsd_brown.rsi

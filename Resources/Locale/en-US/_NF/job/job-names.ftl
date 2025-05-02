@@ -1,10 +1,18 @@
 # Frontier
+<<<<<<< HEAD
 job-name-bailiff = Bailiff
 job-name-brigmedic = Brigmedic
 job-name-cadet-nf = Cadet
 job-name-contractor = Contractor
 job-name-contractor-interview = Contractor Applicant
 job-name-deputy = Deputy
+=======
+job-name-bailiff = TSFMC Captain
+job-name-brigmedic = TSFMC Brigmedic
+job-name-cadet-nf = TSFMC Private
+job-name-contractor = Contractor
+job-name-deputy = TSFMC Corporal
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 job-name-nf-detective = Detective
 job-name-doc = Director of Care
 job-name-ertmailcarrier = ERT Mail Carrier
@@ -45,7 +53,11 @@ JobSTC = Station Traffic Controller
 job-name-senior-engineer = Senior Engineer
 job-name-senior-researcher = Senior Researcher
 job-name-senior-physician = Senior Physician
+<<<<<<< HEAD
 job-name-senior-officer = Sergeant
+=======
+job-name-senior-officer = TSFMC Lieutenant
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 JobSeniorEngineer = Senior Engineer
 JobSeniorOfficer = Sergeant

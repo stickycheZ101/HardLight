@@ -23,7 +23,11 @@ entities:
   - uid: 1
     components:
     - type: MetaData
+<<<<<<< HEAD:Resources/Maps/_HL/Shuttles/ColSec/mosquito.yml
       name: grid
+=======
+      name: TSF Bucket
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320)):Resources/Maps/_Mono/Shuttles/Service/bucket.yml
     - type: Transform
       pos: -0.421875,-0.5625
       parent: invalid

@@ -1,8 +1,15 @@
 <Document>
+<<<<<<< HEAD
   # NT Galactic Bank
 
 As a contractor with Nanotrasen, you have a persistent bank account.
 Money that you [bold]deposit[/bold] at an [color=#44cc00]ATM[/color] on Frontier Outpost or Tinnia's rest will be stored in your account.
+=======
+  # TSF Galactic Bank
+
+As a contractor under a state within the TSF that permits the financial contract, you have a persistent bank account.
+Money that you [bold]deposit[/bold] at an [color=#44cc00]ATM[/color] on the Colonial Outpost or Tinnia's rest will be stored in your account.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 ## ATMs
   <Box>

@@ -442,8 +442,13 @@
 - type: entity
   categories: [ HideSpawnMenu ] # debloat spawn menu
   id: LockerWallEVAColorNfsd
+<<<<<<< HEAD
   parent: NFBaseLockerGridInvWallColor
   name: Colsec EVA wall locker
+=======
+  parent: LockerWallColorBase
+  name: TSFMC EVA wall locker
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:

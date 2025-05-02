@@ -121,8 +121,13 @@
 - type: entity
   id: NfsdTechFabCircuitboard
   parent: SecurityTechFabCircuitboard
+<<<<<<< HEAD
   name: Colsec techfab machine board
   description: A machine printed circuit board for a Colsec techfab.
+=======
+  name: TSFMC techfab machine board
+  description: A machine printed circuit board for an TSFMC techfab.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
     - type: Sprite
       sprite: _NF/Objects/Misc/module.rsi
@@ -148,7 +153,11 @@
 - type: entity
   id: ThrusterNfsdMachineCircuitboard
   parent: BaseMachineCircuitboard
+<<<<<<< HEAD
   name: Colsec thruster machine board
+=======
+  name: TSFMC thruster machine board
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Objects/Misc/module.rsi
@@ -215,7 +224,11 @@
 - type: entity
   id: GyroscopeNfsdMachineCircuitboard
   parent: BaseMachineCircuitboard
+<<<<<<< HEAD
   name: Colsec gyroscope machine board
+=======
+  name: TSFMC gyroscope machine board
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Objects/Misc/module.rsi
@@ -231,7 +244,11 @@
 - type: entity
   id: SmallGyroscopeNfsdMachineCircuitboard
   parent: BaseMachineCircuitboard
+<<<<<<< HEAD
   name: small Colsec gyroscope machine board
+=======
+  name: small TSFMC gyroscope machine board
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Objects/Misc/module.rsi

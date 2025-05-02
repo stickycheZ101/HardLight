@@ -1,7 +1,11 @@
 - type: entity
   id: HolosignNfsd
   parent: HolosignWetFloor
+<<<<<<< HEAD
   name: Colsec holographic barrier
+=======
+  name: TSFMC holographic barrier
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: A barrier of hard light that blocks movement, but pretty weak.
   components:
     - type: Physics

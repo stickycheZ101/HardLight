@@ -1,6 +1,10 @@
 cargo-gifts-event-announcement = Congratulations! { $sender } has decided to send { $description } to the station { $dest }. Look for it in your next cargo shipment.
 cargo-gift-default-description = A bundle of gifts
+<<<<<<< HEAD
 cargo-gift-default-sender = NanoTrasen
+=======
+cargo-gift-default-sender = Trans-Solar Federation
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 cargo-gift-default-dest = Cargo Dept.
 
 cargo-gift-dest-bar = bar

@@ -1,7 +1,11 @@
 - type: entity
   parent: MedalCase
   id: MedalCaseNfsd
+<<<<<<< HEAD
   name: Colsec medal case
+=======
+  name: TSFMC medal case
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: This polished oak case hides medals to be given for distinguished service.
   components:
   - type: Sprite

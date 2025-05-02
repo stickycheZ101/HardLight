@@ -28,7 +28,11 @@
 - type: entity
   parent: ClothingBackpackSatchelSecurity
   id: ClothingBackpackSatchelNfsdBrown
+<<<<<<< HEAD
   name: Colsec satchel
+=======
+  name: TSFMC satchel
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Back/Satchels/nfsd_brown.rsi

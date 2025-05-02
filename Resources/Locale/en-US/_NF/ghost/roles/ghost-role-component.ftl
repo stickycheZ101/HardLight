@@ -12,8 +12,13 @@ ghost-role-information-clugg-name = Clugg
 ghost-role-information-clugg-description = Ugg! Clugg love eat meat. Find new home off space rock, make big hunt.
 
 ghost-role-information-clarpy-name = Clarpy
+<<<<<<< HEAD
 ghost-role-information-clarpy-description = Avast ye mail! wanted by Nanotrasen for crimes against mice.
 ghost-role-information-clarpy-rules = You are an old [color={role-type-pirate-color}][bold]{role-type-pirate-name}[/bold][/color] cat, help out the other pirates, and remember to take your meds.
+=======
+ghost-role-information-clarpy-description = Avast ye mail! Wanted in numerous TSF states for crimes against mice.
+ghost-role-information-clarpy-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with all other pirates.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 ghost-role-information-cult-cat-name = Blood Cult Cat
 ghost-role-information-cult-cat-description = Founded the Blood Cult out of boredom.

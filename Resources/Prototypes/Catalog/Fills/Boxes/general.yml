@@ -352,7 +352,11 @@
         amount: 4
 
 - type: entity
+<<<<<<< HEAD
   name: Colsec encryption key box
+=======
+  name: TSFMC encryption key box
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeySecurity
   components:

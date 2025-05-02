@@ -1,7 +1,11 @@
 <Document>
 # Welcome to Space Station 14!
 
+<<<<<<< HEAD
 You've just begun your shift aboard a Nanotrasen space station.
+=======
+You've just begun your shift aboard an TSF colonial station.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 You and your fellow crewmates are tasked with working together, surviving, and having fun!
 
 [bold]Make sure to follow all server rules.[/bold] You can ask questions or report rule breaks to the [color=#EB2D3A][bold]admin team[/bold][/color] by using the [bold]admin help menu[/bold]. ([italic]accessible by pressing [/italic][color=yellow][bold][keybind="OpenAHelp"/][/bold][/color])

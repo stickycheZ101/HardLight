@@ -41,7 +41,11 @@
 - type: entity
   parent: CrateSecgear
   id: CrateNfsdSecure1
+<<<<<<< HEAD
   name: Colsec crate
+=======
+  name: TSFMC crate
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Icon
     sprite: _NF/Structures/Storage/Crates/nfsd_secure1.rsi
@@ -53,7 +57,11 @@
 - type: entity
   parent: CrateSecgear
   id: CrateNfsdSecure2
+<<<<<<< HEAD
   name: Colsec crate
+=======
+  name: TSFMC crate
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Icon
     sprite: _NF/Structures/Storage/Crates/nfsd_secure2.rsi

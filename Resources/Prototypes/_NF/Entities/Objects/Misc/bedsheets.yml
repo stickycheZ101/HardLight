@@ -1,7 +1,11 @@
 - type: entity
   id: BedsheetNfsd
   parent: BedsheetBase
+<<<<<<< HEAD
   name: Colsec bedsheet
+=======
+  name: TSFMC bedsheet
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Objects/Misc/bedsheets.rsi

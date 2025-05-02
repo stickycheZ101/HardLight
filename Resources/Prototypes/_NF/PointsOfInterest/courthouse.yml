@@ -12,9 +12,15 @@
   id: Courthouse
   parent: BasePOI
   name: "Courthouse"
+<<<<<<< HEAD
   minimumDistance: 1150
   maximumDistance: 2050
   spawnGroup: MarketStation
+=======
+  minimumDistance: 4250
+  maximumDistance: 5050
+  spawnGroup: Required
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   gridPath: /Maps/_NF/POI/courthouse.yml
   addComponents:
   - type: IFF

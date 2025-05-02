@@ -61,7 +61,11 @@
 - type: entity
   id: IntercomNfsd
   parent: IntercomSecurity
+<<<<<<< HEAD
   suffix: NFSD
+=======
+  suffix: TSFMC
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:

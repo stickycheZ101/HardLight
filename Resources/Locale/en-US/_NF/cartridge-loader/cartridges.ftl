@@ -13,6 +13,7 @@ ledger-no-expenses = None
 ledger-balance = Balance:
 ledger-no-balance = N/A
 
+<<<<<<< HEAD
 ledger-tab-Frontier = Station
 ledger-tab-Colsec = Colsec
 ledger-tab-Medical = Med
@@ -21,6 +22,11 @@ ledger-tab-Service = Serv
 ledger-tab-Security = Sec
 ledger-tab-Engineering = Engi
 ledger-tab-Cargo = Cargo
+=======
+ledger-tab-Frontier = Colonial Outpost
+ledger-tab-Nfsd = TSFMC
+ledger-tab-Medical = Medical Dispatch
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 # Fallback, if this displays, something's wrong.
 ledger-tab-Unknown = Unknown
 

@@ -21,7 +21,11 @@
 - type: entity
   parent: [ ClothingHeadsetAlt, BaseC3ContrabandUnredeemable ]
   id: ClothingHeadsetAltNfsdBrown
+<<<<<<< HEAD
   name: Colsec over-ear headset
+=======
+  name: TSFMC over-ear headset
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:

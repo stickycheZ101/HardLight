@@ -55,7 +55,7 @@
   - type: Sprite
     layers:
     - state: base-pistol
-      color: "#56422b"
+      color: "#40454a"
     - state: lock
       color: "#1f6626"
     - state: base-pistol-decal
@@ -78,7 +78,7 @@
   - type: Sprite
     layers:
     - state: base-pistol-wall
-      color: "#56422b"
+      color: "#40454a"
     - state: lock
       color: "#1f6626"
     - state: base-pistol-wall-decal
@@ -250,11 +250,16 @@
 - type: entity
   id: StructureGunRackNfsd
   parent: StructureGunRack
+<<<<<<< HEAD
   suffix: NFSD, Empty
+=======
+  suffix: TSFMC, Empty
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:
     - state: base-gun
+<<<<<<< HEAD
       color: "#56422b"
     - state: lock
       color: "#1f6626"
@@ -275,15 +280,25 @@
     - weapon3
     - weapon4
     - weapon5
+=======
+      color: "#40454a"
+    - state: base-gun-decal
+      color: "#455470"
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 - type: entity
   id: StructureGunRackWallmountedNfsd
   parent: StructureGunRackWallmounted
+<<<<<<< HEAD
   suffix: NFSD, Empty, Wallmount
+=======
+  suffix: TSFMC, Empty, Wallmount
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:
     - state: base-gun-wall
+<<<<<<< HEAD
       color: "#56422b"
     - state: lock
       color: "#1f6626"
@@ -304,16 +319,26 @@
     - weapon3
     - weapon4
     - weapon5
+=======
+      color: "#40454a"
+    - state: base-gun-wall-decal
+      color: "#455470"
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 # Melee weapon racks
 - type: entity
   id: StructureMeleeWeaponRackNfsd
   parent: StructureMeleeWeaponRack
+<<<<<<< HEAD
   suffix: NFSD, Empty
+=======
+  suffix: TSFMC, Empty
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:
     - state: base-melee
+<<<<<<< HEAD
       color: "#56422b"
     - state: lock
       color: "#1f6626"
@@ -334,15 +359,25 @@
     - weapon3
     - weapon4
     - weapon5
+=======
+      color: "#40454a"
+    - state: base-melee-decal
+      color: "#455470"
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 - type: entity
   id: StructureMeleeWeaponRackWallmountedNfsd
   parent: StructureMeleeWeaponRackWallmounted
+<<<<<<< HEAD
   suffix: NFSD, Empty, Wallmount
+=======
+  suffix: TSFMC, Empty, Wallmount
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:
     - state: base-melee-wall
+<<<<<<< HEAD
       color: "#56422b"
     - state: lock
       color: "#1f6626"
@@ -363,16 +398,26 @@
     - weapon3
     - weapon4
     - weapon5
+=======
+      color: "#40454a"
+    - state: base-melee-wall-decal
+      color: "#455470"
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 # Sidearm racks
 - type: entity
   id: StructurePistolRackNfsd
   parent: StructurePistolRack
+<<<<<<< HEAD
   suffix: NFSD, Empty
+=======
+  suffix: TSFMC, Empty
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:
     - state: base-pistol
+<<<<<<< HEAD
       color: "#56422b"
     - state: lock
       color: "#1f6626"
@@ -392,15 +437,25 @@
     - weapon2
     - weapon3
     - weapon4
+=======
+      color: "#40454a"
+    - state: base-pistol-decal
+      color: "#455470"
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 - type: entity
   id: StructurePistolRackWallmountedNfsd
   parent: StructurePistolRackWallmounted
+<<<<<<< HEAD
   suffix: NFSD, Empty, Wallmount
+=======
+  suffix: TSFMC, Empty, Wallmount
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     layers:
     - state: base-pistol-wall
+<<<<<<< HEAD
       color: "#56422b"
     - state: lock
       color: "#1f6626"
@@ -420,6 +475,11 @@
     - weapon2
     - weapon3
     - weapon4
+=======
+      color: "#40454a"
+    - state: base-pistol-wall-decal
+      color: "#455470"
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 ## Blood Cult
 # Melee weapon racks

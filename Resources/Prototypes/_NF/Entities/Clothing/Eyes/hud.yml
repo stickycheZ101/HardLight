@@ -1,7 +1,11 @@
 - type: entity
   parent: ClothingEyesHudSecurity
   id: ClothingEyesHudNfsd
+<<<<<<< HEAD
   name: Colsec hud
+=======
+  name: TSFMC hud
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and criminal records.
   components:
   - type: Sprite
@@ -38,7 +42,11 @@
 - type: entity
   parent: ClothingEyesHudSecurity
   id: ClothingEyesHudNfsdPatch
+<<<<<<< HEAD
   name: Colsec hud eyepatch
+=======
+  name: TSFMC hud eyepatch
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and criminal records.
   components:
   - type: Sprite

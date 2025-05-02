@@ -13,7 +13,11 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetNfsdBrown
+<<<<<<< HEAD
   name: Colsec headset
+=======
+  name: TSFMC headset
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Ears/Headsets/nfsd_e_brown.rsi

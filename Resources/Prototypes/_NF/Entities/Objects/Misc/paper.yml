@@ -46,7 +46,11 @@
   parent: BoxFolderBase
   name: PAL folder
   suffix: Green
+<<<<<<< HEAD
   description: A folder to contain important NFSD forms.
+=======
+  description: A folder to contain important TSF forms.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Objects/Misc/bureaucracy.rsi
@@ -71,7 +75,11 @@
   parent: BoxFolderBase
   name: PAL folder
   suffix: Brown
+<<<<<<< HEAD
   description: A folder to contain important NFSD forms.
+=======
+  description: A folder to contain important TSF forms.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Objects/Misc/bureaucracy.rsi

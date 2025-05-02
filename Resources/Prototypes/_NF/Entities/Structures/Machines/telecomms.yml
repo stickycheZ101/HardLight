@@ -20,7 +20,11 @@
 - type: entity
   parent: TelecomServer
   id: TelecomServerFilledNfsd
+<<<<<<< HEAD
   suffix: Ship, NFSD
+=======
+  suffix: Ship, TSFMC
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: ContainerFill
     containers:

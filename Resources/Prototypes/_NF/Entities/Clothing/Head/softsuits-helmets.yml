@@ -735,8 +735,13 @@
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetNfsd
+<<<<<<< HEAD:Resources/Prototypes/_NF/Entities/Clothing/Head/softsuits-helmets.yml
   name: Colsec EVA helmet
 #  categories: [ HideSpawnMenu ]
+=======
+  name: TSFMC EVA helmet
+  categories: [ HideSpawnMenu ]
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320)):Resources/Prototypes/_NF/Entities/Clothing/Head/softsuit-helmets.yml
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Helmets/eva_color.rsi

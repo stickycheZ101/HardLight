@@ -1,8 +1,13 @@
 <Document>
   # Syndicate Naval Forces
 
+<<<<<<< HEAD
   In the far-off Spinward Periphery, a coalition of corporate entities allied against NanoTrasen
   In the expansive Spinward Periphery, a covert force known as the Spinward Syndicate came into existence a few decades ago, guided by Cybersun Industries. It is a diverse coalition of groups united in their determination to challenge the dominance of Nanotrasen. The Syndicate's United Naval (SUN) branch primarily consists of Gorlex Marauders and is responsible for undermining NanoTrasen's efforts in the Frontier Sector.
+=======
+  In the far-off Rogue Space, a coalition of corporate entities allied against TSF intrusions into Rogue Space
+  In the expansive Rogue Space, a covert force known as the Spinward Syndicate came into existence a few decades ago, guided by Cybersun Industries. It is a diverse coalition of groups united in their determination to challenge the dominance of the TSF in the region. The Syndicate's United Naval (SUN) branch primarily consists of Gorlex Marauders and is responsible for undermining the TSF's expansion in the Rogue Frontier.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
   [bold][color=#a4885c]________________________________________________________________________[/color]
 
@@ -152,7 +157,11 @@
 
   # "Syndicate captain"
 
+<<<<<<< HEAD
   The executive officer in lieu of the commander, syndicate captains ensure operations onboard go smoothly. Equipped with a 45_magnum revolver.
+=======
+  The executive officer in lieu of the commander, syndicate captains ensure operations onboard go smoothly. Equipped with a magnum revolver.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
   <Box>
   <GuideEntityEmbed Entity="MobSyndicateNavalCaptainA"/>
@@ -177,7 +186,11 @@
   - [bold][color=#a4885c]Run (walk) speed:[/color][/bold] 4.5 m/s (2.5 m/s)
   - [bold][color=#a4885c]Damage (type):[/color][/bold] 35 [color=yellow]Piercing[/color] (.30 round)
   - [bold][color=#a4885c]Damage resistances:[/color][/bold] [color=red]Blunt[/color], [color=red]Slash[/color], [color=yellow]Piercing[/color] 40%; [color=orange]Heat[/color] 80%; [color=orange]Caustic[/color] 50%; [color=lime]Radiation[/color] 99%; [color=yellow]Explosion[/color] 80% (syndicate's elite hardsuit)
+<<<<<<< HEAD
   - [bold][color=#a4885c]Special abilities:[/color][/bold] Shooter (akm)
+=======
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] Shooter (akms)
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
   [bold][color=#a4885c]________________________________________________________________________[/color]
 

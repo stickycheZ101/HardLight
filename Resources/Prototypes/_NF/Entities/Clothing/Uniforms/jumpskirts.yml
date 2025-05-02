@@ -57,8 +57,13 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNfsd
+<<<<<<< HEAD
   name: Colsec jumpskirt
   description: A long sleeved jumpskirt produced for deputy sheriffs. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
+=======
+  name: TSFMC jumpskirt
+  description: A long sleeved jumpskirt produced for deputy colonels. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/nfsd_skirt.rsi
@@ -68,8 +73,13 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNfsdShort
+<<<<<<< HEAD
   name: Colsec jumpskirt
   description: A short sleeved jumpskirt produced for deputy sheriffs. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
+=======
+  name: TSFMC jumpskirt
+  description: A short sleeved jumpskirt produced for deputy colonels. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/nfsd_skirt_short.rsi

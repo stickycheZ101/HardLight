@@ -29,7 +29,11 @@
 - type: entity
   parent: ClothingEyesGlassesSecurity
   id: ClothingEyesGlassesNfsd
+<<<<<<< HEAD
   name: Colsec glasses
+=======
+  name: TSFMC glasses
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Upgraded sunglasses that provide flash immunity and a security HUD.
   components:
   - type: Sprite

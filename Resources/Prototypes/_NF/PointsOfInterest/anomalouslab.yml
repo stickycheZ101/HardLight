@@ -12,9 +12,15 @@
   id: AnomalousLab
   parent: BasePOI
   name: 'Anomalous Lab'
+<<<<<<< HEAD
   minimumDistance: 2100
   maximumDistance: 3800
   spawnGroup: MarketStation
+=======
+  minimumDistance: 7000
+  maximumDistance: 10800
+  spawnGroup: ScienceLab
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   gridPath: /Maps/_NF/POI/anomalouslab.yml
   addComponents:
   - type: SolarPoweredGrid

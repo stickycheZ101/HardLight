@@ -131,11 +131,19 @@ accent-caveman-replaced-40 = lawyer
 accent-caveman-replacement-40 = big talk
 accent-caveman-replaced-41 = food
 accent-caveman-replacement-41 = eat
+<<<<<<< HEAD
 accent-caveman-replaced-42 = Colsec
 accent-caveman-replacement-42 = rule tribe
 accent-caveman-replaced-43 = outpost
 accent-caveman-replacement-43 = cave
 accent-caveman-replaced-44 = Colseco
+=======
+accent-caveman-replaced-42 = tsfmc
+accent-caveman-replacement-42 = rule tribe
+accent-caveman-replaced-43 = outpost
+accent-caveman-replacement-43 = cave
+accent-caveman-replaced-44 = tsfmco
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 accent-caveman-replacement-44 = rule tribe cave
 accent-caveman-replaced-45 = frontier
 accent-caveman-replacement-45 = big space

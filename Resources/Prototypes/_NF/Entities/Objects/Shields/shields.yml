@@ -1,5 +1,9 @@
 - type: entity
+<<<<<<< HEAD
   name: Colsec energy shield
+=======
+  name: TSFMC energy shield
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   parent: [BaseC2ContrabandUnredeemable, EnergyShield]
   id: EnergyShieldNfsd
   components:

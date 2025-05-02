@@ -61,7 +61,11 @@
 - type: entity
   parent: IDCardStandard
   id: CadetIDCard
+<<<<<<< HEAD
   name: Colsec cadet ID card
+=======
+  name: TSFMC private ID card
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: PresetIdCard
     job: Cadet
@@ -78,7 +82,11 @@
 - type: entity
   parent: CadetIDCard
   id: DeputyIDCard
+<<<<<<< HEAD
   name: Colsec deputy ID card
+=======
+  name: TSFMC corporal ID card
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: PresetIdCard
     job: Deputy
@@ -91,7 +99,11 @@
 - type: entity
   parent: CadetIDCard
   id: BrigmedicNFIDCard
+<<<<<<< HEAD
   name: Colsec brigmedic ID card
+=======
+  name: TSFMC brigmedic ID card
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: PresetIdCard
     job: Brigmedic
@@ -104,7 +116,11 @@
 - type: entity
   parent: CadetIDCard
   id: SergeantIDCard
+<<<<<<< HEAD
   name: Colsec sergeant ID card
+=======
+  name: TSFMC lieutenant ID card
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: PresetIdCard
     job: SeniorOfficer
@@ -117,7 +133,11 @@
 - type: entity
   parent: CadetIDCard
   id: BailiffIDCard
+<<<<<<< HEAD
   name: Colsec bailiff ID card
+=======
+  name: TSFMC captain ID card
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: PresetIdCard
     job: Bailiff
@@ -130,7 +150,11 @@
 - type: entity
   parent: [CadetIDCard, BaseCommandContraband]
   id: ShriffIDCard
+<<<<<<< HEAD
   name: Colsec sheriff ID card
+=======
+  name: TSFMC colonel ID card
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: PresetIdCard
     job: Sheriff
@@ -145,7 +169,11 @@
 - type: entity
   parent: CadetIDCard
   id: NFDetectiveIDCard
+<<<<<<< HEAD
   name: Colsec detective ID card
+=======
+  name: TSFMC detective ID card
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: PresetIdCard
     job: NFDetective
@@ -219,8 +247,13 @@
 
 - type: entity
   parent: PirateIDCard
+<<<<<<< HEAD
   id: NFPirateIDCard
   name: pirate ID card
+=======
+  id: PirateNFIDCard
+  name: rogue agent ID card
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Garr, be this wood?
   suffix: Frontier
   components:
@@ -235,9 +268,15 @@
     heldPrefix: pirate
 
 - type: entity
+<<<<<<< HEAD
   parent: NFPirateIDCard
   id: NFPirateCaptainIDCard
   name: pirate captain ID card
+=======
+  parent: PirateNFIDCard
+  id: PirateCaptainNFIDCard
+  name: rogue commander ID card
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   description: Ahoy, see how it glistens!
   components:
   - type: PresetIdCard
@@ -249,9 +288,15 @@
     - state: idpiratecaptain
 
 - type: entity
+<<<<<<< HEAD
   parent: NFPirateIDCard
   id: NFPirateFirstMateIDCard
   name: pirate first mate ID card
+=======
+  parent: PirateNFIDCard
+  id: PirateFirstMateNFIDCard
+  name: rogue commandant ID card
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
   components:
   - type: PresetIdCard
     job: NFPirateFirstMate

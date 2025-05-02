@@ -239,6 +239,7 @@
   - NFSpeciesSpecific
 
 # Nfsd
+<<<<<<< HEAD
 - type: roleLoadout
   id: JobCadet
   groups:
@@ -313,6 +314,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+=======
+
+# MONO DISCLAMER - REMOVED ALL OF THESE EXCEPT DETECTIVE AND PAL - FUCK COMMENTING ALL THAT OUT
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 - type: roleLoadout
   id: JobNFDetective
@@ -363,6 +368,7 @@
   - ContractorHandItems
   - NFSpeciesSpecific # Explicitly civilian variant
 
+<<<<<<< HEAD
 # - type: roleLoadout # Fix when this is actully used
   # id: JobPrisonGuard
   # groups:
@@ -463,6 +469,9 @@
   - NfsdSpeciesSpecific
 
 # NFPirate
+=======
+# Pirate
+>>>>>>> c8dd8e215af (TSFMC revamp DO NOT MERGE yet (#320))
 
 - type: roleLoadout
   id: JobNFPirate
