@@ -43,3 +43,5 @@
   name: Interact with natural lubricant
   description: Turn this on for natural lubricant to have any meaningful interaction with you.
 
+- type: consentToggle
+  id: NSFWDescriptions
