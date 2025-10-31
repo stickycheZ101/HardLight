@@ -14,7 +14,8 @@
   #- type: Contraband
    # severity: Class1
   - type: Sprite
-    sprite: _HL/Objects/BorgArmor/physarmor/borglightarmor.rsi
+    sprite: _HL/Objects/BorgArmor/physarmor/defaultarmor.rsi
+    state: icon
   - type: ExplosionResistance
     damageCoefficient: 0.85 #"only" moderate explosive resistance (15%)
   - type: Armor
@@ -49,7 +50,8 @@
     #This is annoying as fuck to deal with.
     #allowedDepartments: [ Security, Command ]
   - type: Sprite
-    sprite: _HL/Objects/BorgArmor/physarmor/borglightarmor.rsi
+    sprite: _HL/Objects/BorgArmor/physarmor/defaultarmor.rsi
+    state: icon
   - type: ExplosionResistance
     damageCoefficient: 0.75 # 25%
   - type: Armor
@@ -87,7 +89,8 @@
     #This is annoying as fuck to deal with.
     #allowedDepartments: [ Security, Command ]
   - type: Sprite
-    sprite: _HL/Objects/BorgArmor/physarmor/borglightarmor.rsi
+    sprite: _HL/Objects/BorgArmor/physarmor/defaultarmor.rsi
+    state: icon
   - type: ExplosionResistance
     damageCoefficient: 0.5 # No cheesing them by throwing low damage nades at them.
   - type: Armor
@@ -124,7 +127,8 @@
   #- type: Contraband
    # severity: Class1
   - type: Sprite
-    sprite: _HL/Objects/BorgArmor/physarmor/borglightarmor.rsi
+    sprite: _HL/Objects/BorgArmor/physarmor/defaultarmor.rsi
+    state: icon
   - type: ExplosionResistance
     damageCoefficient: 0.85
   - type: Armor
