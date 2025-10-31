@@ -37,7 +37,7 @@
   parent: ClothingEyesBase
   id: MasqueradeMask
   name: masquerade mask
-  description: A finely-detailed mask that hides the wearer's identity.
+  description: A finely-made mask that hides the wearer's identity.
   components:
   - type: Sprite
     sprite: _HL/Clothing/Eyes/masquerade.rsi
@@ -47,6 +47,9 @@
     nameOverride: Unknown
     speechVerbOverride: Default
   - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: MasqueradeMask
