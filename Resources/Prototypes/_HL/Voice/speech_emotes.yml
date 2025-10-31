@@ -1,13 +1,8 @@
-
-
-
-
-
 - type: emote
   id: Growl
   name: chat-emote-name-growl
   category: Vocal
-  icon: Interface/Actions/scream.png
+  icon: { sprite: _RMC14/Actions/xeno_emotes.rsi, state: growl }
   whitelist:
     components:
     - Vocal
@@ -15,7 +10,11 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-growl"]
-  # chatTriggers removed to avoid duplicates; base or other pack owns these triggers
+  chatTriggers:
+  - growl
+  - growls
+  - growling
+  - growled
 
 - type: emote
   id: Yip
@@ -41,11 +40,77 @@
   - yips!
 
 - type: emote
+  id: Hiss
+  name: chat-emote-name-hiss
+  category: Vocal
+  available: false
+  icon: { sprite: _RMC14/Actions/xeno_emotes.rsi, state: hiss }
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-cathisses"]
+  chatTriggers:
+    - hiss
+    - hisses
+    - hiss.
+    - hisses.
+    - hisses!
+    - hissing
+    - hissed
+    - hissing.
+    - hissed.
+
+- type: emote
+  id: Meow
+  name: chat-emote-name-meow
+  category: Vocal
+  available: false
+  icon: { sprite: _RMC14/Actions/species_emotes.rsi, state: meow }
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-catmeow"]
+  chatTriggers:
+  - meow
+  - meows
+  - meow.
+  - meow!
+  - meowing
+  - meowed
+  - miau
+  - miaus
+  - meows.
+  - meows~
+  - meows!
+  - meowing.
+  - meowed.
+  - miau.
+  - miaus.
+  - miaus!
+  - nya
+  - nyas
+  - nya.
+  - nyas.
+  - nyas!
+  - mraow.
+  - mraow!
+  - mraow~
+  - mraows.
+  - mraows!
+  - mraows~
+
+- type: emote
   id: Mew
   name: chat-emote-name-mew
   category: Vocal
   available: false
-  icon: { sprite: _Starlight/Actions/felionoid.rsi, state: cat_print }
+  icon: { sprite: _RMC14/Actions/species_emotes.rsi, state: mew }
   whitelist:
     components:
     - Vocal
@@ -53,44 +118,18 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-mew"]
-  # chatTriggers removed to avoid duplicates; Nyanotrasen pack owns these triggers
-
-- type: emote
-  id: Hisses
-  name: chat-emote-name-hiss
-  category: Vocal
-  available: false
-  icon: { sprite: _Starlight/Actions/felionoid.rsi, state: cat_print }
-  whitelist:
-    components:
-    - Vocal
-  blacklist:
-    components:
-    - BorgChassis
-  chatMessages: ["chat-emote-msg-hiss"]
-  # chatTriggers removed to avoid duplicates; Nyanotrasen pack owns these triggers
-
-- type: emote
-  id: Meow
-  name: chat-emote-name-meow
-  category: Vocal
-  available: false
-  icon: { sprite: _Starlight/Actions/felionoid.rsi, state: cat_print }
-  whitelist:
-    components:
-    - Vocal
-  blacklist:
-    components:
-    - BorgChassis
-  chatMessages: ["chat-emote-msg-meow"]
-  # chatTriggers removed to avoid duplicates; Nyanotrasen pack owns these triggers
+  chatTriggers:
+  - mew
+  - mews
+  - mewing
+  - mewed
 
 - type: emote
   id: Purr
   name: chat-emote-name-purr
   category: Vocal
   available: false
-  icon: { sprite: _Starlight/Actions/felionoid.rsi, state: cat_print }
+  icon: { sprite: _RMC14/Actions/species_emotes.rsi, state: purr }
   whitelist:
     components:
     - Vocal
@@ -98,7 +137,11 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-purr"]
-  # chatTriggers removed to avoid duplicates; Nyanotrasen pack owns these triggers
+  chatTriggers:
+  - purr
+  - purrs
+  - purring
+  - purred
 
 - type: emote
   id: Trill
@@ -126,8 +169,6 @@
     - trilling.
     - trilling!
     - trilling?
-
-
 
 - type: emote
   id: Mar

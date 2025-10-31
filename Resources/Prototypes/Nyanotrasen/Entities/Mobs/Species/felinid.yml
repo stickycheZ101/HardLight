@@ -46,9 +46,9 @@
     speechSounds: Alto
     allowedEmotes:
     - Hiss
-    - FelinidMeow
-    - FelinidMew
-    - FelinidGrowl
+    - Meow
+    - Mew
+    - Growl
     - Purr
   - type: DamageOnHighSpeedImpact # Landing on all fours!
     damage:
