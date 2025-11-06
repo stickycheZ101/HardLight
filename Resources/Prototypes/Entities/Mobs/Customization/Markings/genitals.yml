@@ -865,3 +865,2103 @@
   - sprite: Mobs/Customization/Markings/Genital/breasts
     state: breasts_udders_c_0_FRONT
 
+# Penis/Cock markings
+- type: marking
+  id: Genital-Penis-Amputated
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: amputated_FRONT
+
+- type: marking
+  id: Genital-Penis-Nondescript-1-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_nondescript_1_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Nondescript-1-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_nondescript_1_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Nondescript-2-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_nondescript_2_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Nondescript-2-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_nondescript_2_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Nondescript-3-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_nondescript_3_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Nondescript-3-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_nondescript_3_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Nondescript-4-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_nondescript_4_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Nondescript-4-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_nondescript_4_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Nondescript-5-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_nondescript_5_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Nondescript-5-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_nondescript_5_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-1-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_1_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-1-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_1_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-2-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_2_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-2-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_2_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-3-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_3_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-3-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_3_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-4-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_4_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-4-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_4_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-5-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_5_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-5-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_5_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-1-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_1_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-1-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_1_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-2-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_2_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-2-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_2_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-3-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_3_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-3-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_3_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-4-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_4_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-4-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_4_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-5-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_5_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-5-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_5_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-1-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_1_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-1-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_1_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-2-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_2_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-2-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_2_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-3-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_3_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-3-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_3_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-4-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_4_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-4-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_4_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-5-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_5_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-5-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_5_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-1-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_1_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-1-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_1_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-2-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_2_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-2-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_2_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-3-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_3_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-3-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_3_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-4-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_4_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-4-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_4_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-5-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_5_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-5-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_5_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-1-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_1_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-1-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_1_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-2-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_2_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-2-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_2_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-3-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_3_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-3-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_3_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-4-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_4_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-4-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_4_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-5-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_5_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-5-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_5_1_FRONT
+
+# Continue with the remaining penis variants (human sheath, knotted sheath, etc.)
+- type: marking
+  id: Genital-Penis-Human-1-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_1_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-1-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_1_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-2-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_2_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-2-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_2_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-3-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_3_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-3-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_3_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-4-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_4_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Human-4-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_human_4_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-1-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_1_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-1-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_1_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-2-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_2_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-2-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_2_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-3-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_3_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-3-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_3_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-4-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_4_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Knotted-4-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_knotted_4_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-1-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_1_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-1-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_1_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-2-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_2_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-2-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_2_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-3-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_3_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-3-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_3_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-4-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_4_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Barbknot-4-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_barbknot_4_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-1-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_1_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-1-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_1_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-2-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_2_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-2-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_2_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-3-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_3_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-3-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_3_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-4-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_4_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Flared-4-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_flared_4_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-1-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_1_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-2-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_2_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-3-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_3_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-4-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_4_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tentacle-4-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tentacle_4_s_1_FRONT
+
+# Hemi penis variants
+- type: marking
+  id: Genital-Penis-Hemi-1-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_1_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-1-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_1_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-2-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_2_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-2-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_2_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-3-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_3_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-3-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_3_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-4-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_4_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-4-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_4_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-1-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_1_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-1-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_1_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-2-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_2_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-2-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_2_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-3-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_3_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-3-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_3_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-4-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_4_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-4-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_4_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-1-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_1_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-1-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_1_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-2-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_2_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-2-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_2_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-3-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_3_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-3-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_3_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-4-S-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_4_s_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-4-S-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_4_s_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tipknotted-1-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tipknotted_1_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tipknotted-1-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tipknotted_1_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tipknotted-2-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tipknotted_2_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tipknotted-2-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tipknotted_2_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tipknotted-3-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tipknotted_3_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tipknotted-3-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tipknotted_3_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tipknotted-5-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tipknotted_5_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tipknotted-5-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tipknotted_5_1_FRONT
+
+# All the non-sheath versions of Hemi
+- type: marking
+  id: Genital-Penis-Hemi-1-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_1_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-1-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_1_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-2-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_2_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-2-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_2_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-3-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_3_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-3-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_3_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-4-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_4_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-4-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_4_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-5-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_5_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemi-5-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemi_5_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-1-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_1_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-1-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_1_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-2-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_2_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-2-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_2_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-3-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_3_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-3-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_3_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-4-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_4_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-4-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_4_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-5-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_5_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Hemiknot-5-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_hemiknot_5_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-1-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_1_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-1-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_1_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-2-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_2_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-2-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_2_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-3-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_3_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-3-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_3_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-4-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_4_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-4-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_4_1_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-5-0
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_5_0_FRONT
+
+- type: marking
+  id: Genital-Penis-Tapered-5-1
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: penis_tapered_5_1_FRONT
+
+- type: marking
+  id: Knotted-Wolf-Cock
+  bodyPart: Penis
+  markingCategory: Genital
+  kindAllowance: [BasicHumanlike, BasicFurry, Resomi]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: Mobs/Customization/Markings/Genital/cocks.rsi
+    state: BRC-Knotted
+    scale: 0.5
+
+
+

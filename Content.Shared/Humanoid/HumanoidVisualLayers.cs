@@ -13,6 +13,7 @@ namespace Content.Shared.Humanoid
         UndergarmentTop,
         UndergarmentBottom,
         Genital,
+        Penis,
         Chest,
         Head,
         Snout,
