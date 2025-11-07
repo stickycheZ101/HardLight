@@ -293,6 +293,7 @@
     - id: ProtolatheMachineCircuitboard # Frontier
     - id: ResearchComputerCircuitboard # Frontier
     # - id: CargoRequestScienceComputerCircuitboard # Frontier
+    - id: StationAiFixerCircuitboard
     - id: RubberStampRd
 
 # Hardsuit table, used for suit storage as well

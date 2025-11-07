@@ -30,6 +30,10 @@
           0.1
         ]
       ]
-    }
+    },
+	{
+            "name": "equipped-BACKPACK",
+            "directions": 4
+	}
   ]
 }

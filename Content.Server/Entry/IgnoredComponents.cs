@@ -22,6 +22,7 @@ namespace Content.Server.Entry
             "OptionsVisualizer",
             "StatusEffectOrgan",
             "IconSmoothRandom",
+            "MultipartMachineGhost"
         };
     }
 }

@@ -1,3 +1,27 @@
+# SPDX-FileCopyrightText: 2021 metalgearsloth
+# SPDX-FileCopyrightText: 2021 shaeone
+# SPDX-FileCopyrightText: 2022 Moony
+# SPDX-FileCopyrightText: 2022 Myctai
+# SPDX-FileCopyrightText: 2022 Radrark
+# SPDX-FileCopyrightText: 2022 Rinkashikachi
+# SPDX-FileCopyrightText: 2023 AJCM-git
+# SPDX-FileCopyrightText: 2023 Checkraze
+# SPDX-FileCopyrightText: 2023 Leon Friedrich
+# SPDX-FileCopyrightText: 2023 TemporalOroboros
+# SPDX-FileCopyrightText: 2023 Whisper
+# SPDX-FileCopyrightText: 2024 Dvir
+# SPDX-FileCopyrightText: 2024 Ed
+# SPDX-FileCopyrightText: 2024 Ilya246
+# SPDX-FileCopyrightText: 2024 Kara
+# SPDX-FileCopyrightText: 2024 Nemanja
+# SPDX-FileCopyrightText: 2024 checkraze
+# SPDX-FileCopyrightText: 2024 lzk
+# SPDX-FileCopyrightText: 2024 spacedwarf14
+# SPDX-FileCopyrightText: 2025 Ark
+# SPDX-FileCopyrightText: 2025 ArtisticRoomba
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entity
   id: BaseThruster
   parent: BaseStructureDynamic
@@ -90,7 +114,84 @@
       shader: unshaded
       visible: false
       offset: 0, 1
-  # Frontier: linkable thrusters, pirate bounties
+  - type: DeviceNetwork # frontier
+    deviceNetId: Wireless # frontier
+    receiveFrequencyId: BasicDevice # frontier
+  - type: WirelessNetworkConnection # frontier
+    range: 200 # frontier
+  - type: DeviceLinkSink # frontier
+    ports: # frontier
+    - On # frontier
+    - Off # frontier
+    - Toggle # frontier
+  - type: PirateBountyItem # Frontier
+    id: Thruster # Frontier
+  - type: RadarBlip # Mono
+    visibleFromOtherGrids: false
+    radarColor: "#99FF99"
+    scale: 1
+    shape: diamond
+
+- type: entity
+  id: ThrusterLarge
+  name: large thruster
+  parent: [ BaseThruster, ConstructibleMachine ]
+  placement:
+    mode: AlignTileAny
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1800
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 900
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-1.45,1.45,0.45"
+        density: 1750
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: ApcPowerReceiver
+    powerLoad: 10000
+  - type: Thruster
+    baseThrust: 1000
+    thrust: 2000
+    machinePartThrust: Capacitor
+    thrustPerPartLevel: [2000, 2500, 3000, 3500] # Frontier: upgradable gyroscopes
+  - type: Sprite
+    sprite: Structures/Shuttles/thruster_large.rsi
+    offset: 0.5,-0.5
+    layers:
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      shader: unshaded
+      visible: false
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
+      offset: 0, 2
+  - type: StaticPrice
+    price: 1500
+    # Frontier: linkable thrusters, pirate bounties
   - type: DeviceNetwork
     deviceNetId: Wireless
     receiveFrequencyId: BasicDevice

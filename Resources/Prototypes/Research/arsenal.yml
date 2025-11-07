@@ -14,11 +14,15 @@
   recipeUnlocks:
   - NFWeaponPka # Frontier: WeaponProtoKineticAccelerator<NFWeaponPka
   - ShuttleGunKineticCircuitboard
+  #- ShuttleGunKineticCircuitboard
+  - ShuttleGunKineticCircuitboard
+  - WeaponTurretM25Circuitboard # Mono
   # These are roundstart but not replenishable for salvage
   - WeaponCrusher
   - WeaponCrusherDagger
   # This is not roundstart since its a direct upgrade
   - WeaponCrusherGlaive
+  - MechEquipmentKineticAccelerator # Goobstation
 
 #Frontier: restricted arsenal research ;Monolith: readded :)
 
@@ -71,6 +75,7 @@
   cost: 7500
   recipeUnlocks: # Frontier
   - WeaponLaserCarbine # Frontier
+  - WeaponMechCombatFiredartLaser # Goobstation
 
 #Frontier: restricted arsenal research ;Monolith: readded :)
 
@@ -111,6 +116,7 @@
   - AmmoBox762x51mmUranium
   - Magazine12_gaugeUranium
   - AmmoBox12_gaugeUranium
+  - WeaponMechCombatDisabler # Goobstation
 
 - type: technology
   id: AdvancedRiotControl
@@ -184,6 +190,7 @@
   - PKAUpgradeDamage
   - PKAUpgradeRange
   - PKAUpgradeFireRate
+  - WeaponMechCombatSolarisLaser # Goobstation
 
 
 
@@ -239,6 +246,7 @@
   recipeUnlocks:
   - WeaponAdvancedLaser # Frontier
   - PortableRecharger
+  - WeaponMechCombatImmolationGun # Goobstation
 
 - type: technology
   id: ThermalWeaponry

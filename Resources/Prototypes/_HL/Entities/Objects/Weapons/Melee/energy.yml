@@ -35,6 +35,11 @@
     spread: 75
   - type: Item
     size: Huge
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
     sprite: _HL/Objects/Weapons/Melee/e_halberd-inhands.rsi
   - type: Sprite
     sprite: _HL/Objects/Weapons/Melee/e_halberd.rsi

@@ -8,7 +8,7 @@
   id: Cartridge762x39mmSubsonic
 
 - type: Tag
-  id: Cartridge127x99mm
+  id: CartridgeHighCaliber
 
 # Mechs
 
@@ -144,3 +144,6 @@
 
 - type: Tag
   id: StasisCage
+
+- type: Tag
+  id: Cartridge127x99mm

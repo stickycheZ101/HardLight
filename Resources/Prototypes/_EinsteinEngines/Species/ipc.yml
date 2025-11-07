@@ -43,6 +43,17 @@
     LFoot: MobIPCLFoot
     RFoot: MobIPCRFoot
     RArmExtension: MobHumanoidAnyMarking # Hardlight: enables harpy/bat wings
+    TailBehind: MobHumanoidAnyMarking
+    TailOversuit: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
+    UndergarmentTop: MobHumanoidAnyMarking
+    UndergarmentBottom: MobHumanoidAnyMarking
+    Genital: MobHumanoidAnyMarking
+    Penis: MobHumanoidAnyMarking
+    Eyes: MobHumanoidEyes
+    UndershirtUnderclothes: MobHumanoidAnyMarking
+    UndershirtOverclothes: MobHumanoidAnyMarking
 
 - type: markingPoints
   id: MobIPCMarkingLimits
