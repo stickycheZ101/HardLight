@@ -39,7 +39,9 @@
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
     Genital: MobHumanoidAnyMarking
-  # Unsupported layers removed: Penis / UndershirtUnderclothes / UndershirtOverclothes
+    Penis: MobHumanoidAnyMarking
+    Breasts: MobHumanoidAnyMarking
+  # Unsupported layers removed: UndershirtUnderclothes / UndershirtOverclothes
 
 - type: markingPoints
   id: MobResomiMarkingLimits

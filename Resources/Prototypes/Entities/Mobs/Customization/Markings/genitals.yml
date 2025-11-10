@@ -452,7 +452,7 @@
 # Breast markings - Round Pair (A-Cup through F-Cup)
 - type: marking
   id: GenitalBreastsRoundA
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -464,7 +464,7 @@
 
 - type: marking
   id: GenitalBreastsRoundB
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -476,7 +476,7 @@
 
 - type: marking
   id: GenitalBreastsRoundC
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -488,7 +488,7 @@
 
 - type: marking
   id: GenitalBreastsRoundD
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -500,7 +500,7 @@
 
 - type: marking
   id: GenitalBreastsRoundE
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -512,7 +512,7 @@
 
 - type: marking
   id: GenitalBreastsRoundF
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -525,7 +525,7 @@
 # Breast markings - Regular Pair (A-Cup through F-Cup)
 - type: marking
   id: GenitalBreastsPairA
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -537,7 +537,7 @@
 
 - type: marking
   id: GenitalBreastsPairB
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -549,7 +549,7 @@
 
 - type: marking
   id: GenitalBreastsPairC
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -561,7 +561,7 @@
 
 - type: marking
   id: GenitalBreastsPairD
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -574,7 +574,7 @@
 # Breast markings - Quad (4 breasts)
 - type: marking
   id: GenitalBreastsQuadA
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -586,7 +586,7 @@
 
 - type: marking
   id: GenitalBreastsQuadB
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -598,7 +598,7 @@
 
 - type: marking
   id: GenitalBreastsQuadC
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -610,7 +610,7 @@
 
 - type: marking
   id: GenitalBreastsQuadD
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -623,7 +623,7 @@
 # Breast markings - Sextuple (6 breasts)
 - type: marking
   id: GenitalBreastsSextupleA
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -635,7 +635,7 @@
 
 - type: marking
   id: GenitalBreastsSextupleB
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -647,7 +647,7 @@
 
 - type: marking
   id: GenitalBreastsSextupleC
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -660,7 +660,7 @@
 # Breast markings - Udders
 - type: marking
   id: GenitalBreastsUddersA
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -672,7 +672,7 @@
 
 - type: marking
   id: GenitalBreastsUddersB
-  bodyPart: Genital
+  bodyPart: Breasts
   markingCategory: Genital
   coloring:
     default:
@@ -697,7 +697,7 @@
 # Penis/Cock markings
 - type: marking
   id: Genital-Penis-Amputated
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -709,7 +709,7 @@
 
 - type: marking
   id: Genital-Penis-Nondescript-1-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -721,7 +721,7 @@
 
 - type: marking
   id: Genital-Penis-Nondescript-1-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -733,7 +733,7 @@
 
 - type: marking
   id: Genital-Penis-Nondescript-2-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -745,7 +745,7 @@
 
 - type: marking
   id: Genital-Penis-Nondescript-2-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -757,7 +757,7 @@
 
 - type: marking
   id: Genital-Penis-Nondescript-3-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -769,7 +769,7 @@
 
 - type: marking
   id: Genital-Penis-Nondescript-3-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -781,7 +781,7 @@
 
 - type: marking
   id: Genital-Penis-Nondescript-4-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -793,7 +793,7 @@
 
 - type: marking
   id: Genital-Penis-Nondescript-4-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -805,7 +805,7 @@
 
 - type: marking
   id: Genital-Penis-Nondescript-5-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -817,7 +817,7 @@
 
 - type: marking
   id: Genital-Penis-Nondescript-5-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -829,7 +829,7 @@
 
 - type: marking
   id: Genital-Penis-Human-1-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -841,7 +841,7 @@
 
 - type: marking
   id: Genital-Penis-Human-1-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -853,7 +853,7 @@
 
 - type: marking
   id: Genital-Penis-Human-2-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -865,7 +865,7 @@
 
 - type: marking
   id: Genital-Penis-Human-2-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -877,7 +877,7 @@
 
 - type: marking
   id: Genital-Penis-Human-3-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -889,7 +889,7 @@
 
 - type: marking
   id: Genital-Penis-Human-3-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -901,7 +901,7 @@
 
 - type: marking
   id: Genital-Penis-Human-4-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -913,7 +913,7 @@
 
 - type: marking
   id: Genital-Penis-Human-4-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -925,7 +925,7 @@
 
 - type: marking
   id: Genital-Penis-Human-5-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -937,7 +937,7 @@
 
 - type: marking
   id: Genital-Penis-Human-5-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -949,7 +949,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-1-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -961,7 +961,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-1-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -973,7 +973,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-2-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -985,7 +985,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-2-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -997,7 +997,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-3-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1009,7 +1009,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-3-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1021,7 +1021,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-4-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1033,7 +1033,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-4-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1045,7 +1045,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-5-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1057,7 +1057,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-5-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1069,7 +1069,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-1-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1081,7 +1081,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-1-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1093,7 +1093,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-2-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1105,7 +1105,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-2-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1117,7 +1117,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-3-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1129,7 +1129,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-3-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1141,7 +1141,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-4-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1153,7 +1153,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-4-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1165,7 +1165,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-5-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1177,7 +1177,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-5-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1189,7 +1189,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-1-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1201,7 +1201,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-1-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1213,7 +1213,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-2-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1225,7 +1225,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-2-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1237,7 +1237,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-3-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1249,7 +1249,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-3-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1261,7 +1261,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-4-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1273,7 +1273,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-4-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1285,7 +1285,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-5-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1297,7 +1297,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-5-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1309,7 +1309,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-1-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1321,7 +1321,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-1-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1333,7 +1333,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-2-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1345,7 +1345,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-2-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1357,7 +1357,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-3-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1369,7 +1369,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-3-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1381,7 +1381,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-4-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1393,7 +1393,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-4-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1405,7 +1405,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-5-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1417,7 +1417,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-5-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1430,7 +1430,7 @@
 # Continue with the remaining penis variants (human sheath, knotted sheath, etc.)
 - type: marking
   id: Genital-Penis-Human-1-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1442,7 +1442,7 @@
 
 - type: marking
   id: Genital-Penis-Human-1-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1454,7 +1454,7 @@
 
 - type: marking
   id: Genital-Penis-Human-2-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1466,7 +1466,7 @@
 
 - type: marking
   id: Genital-Penis-Human-2-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1478,7 +1478,7 @@
 
 - type: marking
   id: Genital-Penis-Human-3-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1490,7 +1490,7 @@
 
 - type: marking
   id: Genital-Penis-Human-3-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1502,7 +1502,7 @@
 
 - type: marking
   id: Genital-Penis-Human-4-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1514,7 +1514,7 @@
 
 - type: marking
   id: Genital-Penis-Human-4-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1526,7 +1526,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-1-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1538,7 +1538,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-1-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1550,7 +1550,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-2-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1562,7 +1562,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-2-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1574,7 +1574,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-3-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1586,7 +1586,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-3-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1598,7 +1598,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-4-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1610,7 +1610,7 @@
 
 - type: marking
   id: Genital-Penis-Knotted-4-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1622,7 +1622,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-1-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1634,7 +1634,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-1-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1646,7 +1646,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-2-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1658,7 +1658,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-2-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1670,7 +1670,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-3-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1682,7 +1682,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-3-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1694,7 +1694,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-4-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1706,7 +1706,7 @@
 
 - type: marking
   id: Genital-Penis-Barbknot-4-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1718,7 +1718,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-1-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1730,7 +1730,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-1-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1742,7 +1742,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-2-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1754,7 +1754,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-2-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1766,7 +1766,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-3-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1778,7 +1778,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-3-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1790,7 +1790,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-4-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1802,7 +1802,7 @@
 
 - type: marking
   id: Genital-Penis-Flared-4-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1814,7 +1814,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-1-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1826,7 +1826,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-2-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1838,7 +1838,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-3-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1850,7 +1850,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-4-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1862,7 +1862,7 @@
 
 - type: marking
   id: Genital-Penis-Tentacle-4-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1875,7 +1875,7 @@
 # Hemi penis variants
 - type: marking
   id: Genital-Penis-Hemi-1-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1887,7 +1887,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-1-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1899,7 +1899,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-2-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1911,7 +1911,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-2-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1923,7 +1923,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-3-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1935,7 +1935,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-3-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1947,7 +1947,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-4-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1959,7 +1959,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-4-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1971,7 +1971,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-1-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1983,7 +1983,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-1-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -1995,7 +1995,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-2-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2007,7 +2007,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-2-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2019,7 +2019,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-3-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2031,7 +2031,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-3-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2043,7 +2043,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-4-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2055,7 +2055,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-4-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2067,7 +2067,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-1-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2079,7 +2079,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-1-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2091,7 +2091,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-2-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2103,7 +2103,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-2-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2115,7 +2115,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-3-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2127,7 +2127,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-3-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2139,7 +2139,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-4-S-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2151,7 +2151,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-4-S-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2163,7 +2163,7 @@
 
 - type: marking
   id: Genital-Penis-Tipknotted-1-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2175,7 +2175,7 @@
 
 - type: marking
   id: Genital-Penis-Tipknotted-1-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2187,7 +2187,7 @@
 
 - type: marking
   id: Genital-Penis-Tipknotted-2-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2199,7 +2199,7 @@
 
 - type: marking
   id: Genital-Penis-Tipknotted-2-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2211,7 +2211,7 @@
 
 - type: marking
   id: Genital-Penis-Tipknotted-3-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2223,7 +2223,7 @@
 
 - type: marking
   id: Genital-Penis-Tipknotted-3-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2235,7 +2235,7 @@
 
 - type: marking
   id: Genital-Penis-Tipknotted-5-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2247,7 +2247,7 @@
 
 - type: marking
   id: Genital-Penis-Tipknotted-5-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2260,7 +2260,7 @@
 # All the non-sheath versions of Hemi
 - type: marking
   id: Genital-Penis-Hemi-1-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2272,7 +2272,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-1-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2284,7 +2284,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-2-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2296,7 +2296,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-2-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2308,7 +2308,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-3-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2320,7 +2320,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-3-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2332,7 +2332,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-4-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2344,7 +2344,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-4-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2356,7 +2356,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-5-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2368,7 +2368,7 @@
 
 - type: marking
   id: Genital-Penis-Hemi-5-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2380,7 +2380,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-1-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2392,7 +2392,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-1-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2404,7 +2404,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-2-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2416,7 +2416,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-2-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2428,7 +2428,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-3-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2440,7 +2440,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-3-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2452,7 +2452,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-4-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2464,7 +2464,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-4-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2476,7 +2476,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-5-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2488,7 +2488,7 @@
 
 - type: marking
   id: Genital-Penis-Hemiknot-5-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2500,7 +2500,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-1-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2512,7 +2512,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-1-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2524,7 +2524,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-2-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2536,7 +2536,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-2-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2548,7 +2548,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-3-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2560,7 +2560,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-3-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2572,7 +2572,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-4-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2584,7 +2584,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-4-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2596,7 +2596,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-5-0
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2608,7 +2608,7 @@
 
 - type: marking
   id: Genital-Penis-Tapered-5-1
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:
@@ -2620,7 +2620,7 @@
 
 - type: marking
   id: Knotted-Wolf-Cock
-  bodyPart: Genital
+  bodyPart: Penis
   markingCategory: Genital
   coloring:
     default:

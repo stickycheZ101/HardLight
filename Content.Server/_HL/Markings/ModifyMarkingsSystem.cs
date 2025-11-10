@@ -61,7 +61,7 @@ public sealed class ModifyMarkingsSystem : SharedModifyMarkingsSystem
         }
 
         // and then play a sound! If they aren't genitals.
-        if (mProt.BodyPart != HumanoidVisualLayers.Genital)
+        if (mProt.MarkingCategory != MarkingCategories.Genital)
             _audio.PlayEntity(ent.Comp.Sound, Filter.Entities(user, target), target, false);
     }
 

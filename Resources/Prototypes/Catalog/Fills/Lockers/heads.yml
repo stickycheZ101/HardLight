@@ -408,7 +408,7 @@
   id: LockerFreezerVaultFilled
   suffix: Vault, Locked
   parent: LockerFreezerBase
-  # categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: AccessReader
     access: [ [ "Command" ] ]

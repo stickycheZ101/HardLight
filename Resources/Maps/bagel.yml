@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.3.0
   forkId: ""
   forkVersion: ""
-  time: 11/06/2025 23:42:08
-  entityCount: 27239
+  time: 11/09/2025 00:25:56
+  entityCount: 27235
 maps:
 - 943
 grids:
@@ -13135,12 +13135,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -3.5,-164.5
       parent: 60
-    - type: Door
-      secondsUntilStateChange: -3722.5337
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
   - uid: 25633
     components:
     - type: Transform
@@ -13937,36 +13931,18 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 1.5,-168.5
       parent: 60
-    - type: Door
-      secondsUntilStateChange: -1154.2826
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
   - uid: 26736
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 0.5,-168.5
       parent: 60
-    - type: Door
-      secondsUntilStateChange: -1152.716
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
   - uid: 26737
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -0.5,-168.5
       parent: 60
-    - type: Door
-      secondsUntilStateChange: -1149.716
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
 - proto: AirlockGlassShuttle
   entities:
   - uid: 4357
@@ -35615,7 +35591,7 @@ entities:
   - uid: 24976
     components:
     - type: Transform
-      pos: 51.5,24.5
+      pos: 52.5,23.5
       parent: 60
   - uid: 24981
     components:
@@ -36165,12 +36141,12 @@ entities:
   - uid: 25100
     components:
     - type: Transform
-      pos: 41.5,24.5
+      pos: 51.5,23.5
       parent: 60
   - uid: 25101
     components:
     - type: Transform
-      pos: 48.5,24.5
+      pos: 50.5,23.5
       parent: 60
   - uid: 25327
     components:
@@ -36180,67 +36156,47 @@ entities:
   - uid: 25336
     components:
     - type: Transform
-      pos: 53.5,21.5
+      pos: 49.5,23.5
       parent: 60
   - uid: 25337
     components:
     - type: Transform
-      pos: 52.5,21.5
+      pos: 48.5,23.5
       parent: 60
   - uid: 25338
     components:
     - type: Transform
-      pos: 51.5,21.5
+      pos: 47.5,23.5
       parent: 60
   - uid: 25339
     components:
     - type: Transform
-      pos: 50.5,21.5
+      pos: 46.5,23.5
       parent: 60
   - uid: 25340
     components:
     - type: Transform
-      pos: 49.5,21.5
+      pos: 45.5,23.5
       parent: 60
   - uid: 25341
     components:
     - type: Transform
-      pos: 48.5,21.5
+      pos: 43.5,23.5
       parent: 60
   - uid: 25342
     components:
     - type: Transform
-      pos: 47.5,21.5
+      pos: 42.5,23.5
       parent: 60
   - uid: 25343
     components:
     - type: Transform
-      pos: 46.5,21.5
+      pos: 44.5,23.5
       parent: 60
   - uid: 25344
     components:
     - type: Transform
-      pos: 44.5,21.5
-      parent: 60
-  - uid: 25345
-    components:
-    - type: Transform
-      pos: 43.5,21.5
-      parent: 60
-  - uid: 25346
-    components:
-    - type: Transform
-      pos: 45.5,21.5
-      parent: 60
-  - uid: 25347
-    components:
-    - type: Transform
-      pos: 41.5,21.5
-      parent: 60
-  - uid: 25348
-    components:
-    - type: Transform
-      pos: 42.5,21.5
+      pos: 47.5,22.5
       parent: 60
   - uid: 25405
     components:
@@ -118899,87 +118855,6 @@ entities:
     - type: Transform
       pos: 35.629635,-51.39923
       parent: 60
-- proto: GunSafeDisabler
-  entities:
-  - uid: 5201
-    components:
-    - type: Transform
-      anchored: True
-      pos: -24.5,-20.5
-      parent: 60
-    - type: Physics
-      bodyType: Static
-- proto: GunSafeLaserCarbine
-  entities:
-  - uid: 6206
-    components:
-    - type: MetaData
-      desc: A standard-issue Nanotrasen storage unit, containing 4 laser carbines.
-    - type: Transform
-      anchored: True
-      pos: -26.5,1.5
-      parent: 60
-    - type: Physics
-      bodyType: Static
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 6308
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-- proto: GunSafePistolMk58
-  entities:
-  - uid: 1561
-    components:
-    - type: MetaData
-      desc: A standard-issue Nanotrasen storage unit, containing 4 Mk58 pistols.
-    - type: Transform
-      anchored: True
-      pos: -28.5,-1.5
-      parent: 60
-    - type: Physics
-      bodyType: Static
-- proto: GunSafeRifleLecter
-  entities:
-  - uid: 10682
-    components:
-    - type: MetaData
-      desc: A standard-issue Nanotrasen storage unit, containing 2 Lecter combat rifles.
-    - type: Transform
-      anchored: True
-      pos: -28.5,0.5
-      parent: 60
-    - type: Physics
-      bodyType: Static
-- proto: GunSafeShotgunKammerer
-  entities:
-  - uid: 6367
-    components:
-    - type: MetaData
-      desc: A standard-issue Nanotrasen storage unit, containing 2 Kammerer shotguns.
-    - type: Transform
-      anchored: True
-      pos: -25.5,1.5
-      parent: 60
-    - type: Physics
-      bodyType: Static
-- proto: GunSafeSubMachineGunDrozd
-  entities:
-  - uid: 1968
-    components:
-    - type: MetaData
-      desc: A standard-issue Nanotrasen storage unit, containing 2 Drozd submachine guns.
-    - type: Transform
-      anchored: True
-      pos: -28.5,-0.5
-      parent: 60
-    - type: Physics
-      bodyType: Static
 - proto: HandheldGPSBasic
   entities:
   - uid: 3712
@@ -119099,12 +118974,141 @@ entities:
     - type: Transform
       pos: -111.5,20.5
       parent: 60
+- proto: HLGunSafeDisabler
+  entities:
+  - uid: 5201
+    components:
+    - type: Transform
+      anchored: True
+      pos: -24.5,-20.5
+      parent: 60
+    - type: Physics
+      bodyType: Static
+- proto: HLGunSafeLaserCarbine
+  entities:
+  - uid: 6206
+    components:
+    - type: MetaData
+      desc: A standard-issue Nanotrasen storage unit, containing 4 laser carbines.
+    - type: Transform
+      anchored: True
+      pos: -26.5,1.5
+      parent: 60
+    - type: Physics
+      bodyType: Static
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 6308
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+- proto: HLGunSafePistolMk58
+  entities:
+  - uid: 1561
+    components:
+    - type: MetaData
+      desc: A standard-issue Nanotrasen storage unit, containing 4 Mk58 pistols.
+    - type: Transform
+      anchored: True
+      pos: -28.5,-1.5
+      parent: 60
+    - type: Physics
+      bodyType: Static
+- proto: HLGunSafeRifleLecter
+  entities:
+  - uid: 10682
+    components:
+    - type: MetaData
+      desc: A standard-issue Nanotrasen storage unit, containing 2 Lecter combat rifles.
+    - type: Transform
+      anchored: True
+      pos: -28.5,0.5
+      parent: 60
+    - type: Physics
+      bodyType: Static
+- proto: HLGunSafeShotgunKammerer
+  entities:
+  - uid: 6367
+    components:
+    - type: MetaData
+      desc: A standard-issue Nanotrasen storage unit, containing 2 Kammerer shotguns.
+    - type: Transform
+      anchored: True
+      pos: -25.5,1.5
+      parent: 60
+    - type: Physics
+      bodyType: Static
+- proto: HLGunSafeSubMachineGunDrozd
+  entities:
+  - uid: 1968
+    components:
+    - type: MetaData
+      desc: A standard-issue Nanotrasen storage unit, containing 2 Drozd submachine guns.
+    - type: Transform
+      anchored: True
+      pos: -28.5,-0.5
+      parent: 60
+    - type: Physics
+      bodyType: Static
+- proto: HLLockerAtmosphericsFilledHardsuit
+  entities:
+  - uid: 15401
+    components:
+    - type: Transform
+      pos: -24.5,32.5
+      parent: 60
+  - uid: 15567
+    components:
+    - type: Transform
+      pos: -28.5,32.5
+      parent: 60
+  - uid: 15568
+    components:
+    - type: Transform
+      pos: -26.5,32.5
+      parent: 60
+- proto: HLLockerBoozeFilled
+  entities:
+  - uid: 2078
+    components:
+    - type: Transform
+      pos: 11.5,-36.5
+      parent: 60
+  - uid: 2173
+    components:
+    - type: Transform
+      pos: 11.5,-34.5
+      parent: 60
+- proto: HLLockerBotanistFilled
+  entities:
+  - uid: 2199
+    components:
+    - type: Transform
+      pos: 32.5,-35.5
+      parent: 60
+  - uid: 2328
+    components:
+    - type: Transform
+      pos: 33.5,-35.5
+      parent: 60
 - proto: HLLockerCaptainFilledNoLaser
   entities:
   - uid: 21695
     components:
     - type: Transform
       pos: -6.5,-2.5
+      parent: 60
+- proto: HLLockerChemistryFilled
+  entities:
+  - uid: 7228
+    components:
+    - type: Transform
+      pos: 40.5,-32.5
       parent: 60
 - proto: HLLockerChiefEngineerFilled
   entities:
@@ -119119,6 +119123,87 @@ entities:
     components:
     - type: Transform
       pos: 30.5,-12.5
+      parent: 60
+- proto: HLLockerElectricalSuppliesFilled
+  entities:
+  - uid: 827
+    components:
+    - type: Transform
+      pos: 13.5,-19.5
+      parent: 60
+  - uid: 6387
+    components:
+    - type: Transform
+      pos: 6.5,12.5
+      parent: 60
+  - uid: 11679
+    components:
+    - type: Transform
+      pos: -3.5,-48.5
+      parent: 60
+  - uid: 19149
+    components:
+    - type: Transform
+      pos: 20.5,16.5
+      parent: 60
+- proto: HLLockerEngineerFilledHardsuit
+  entities:
+  - uid: 6543
+    components:
+    - type: Transform
+      pos: -4.5,13.5
+      parent: 60
+  - uid: 6912
+    components:
+    - type: Transform
+      pos: -4.5,16.5
+      parent: 60
+  - uid: 6913
+    components:
+    - type: Transform
+      pos: -4.5,18.5
+      parent: 60
+  - uid: 6914
+    components:
+    - type: Transform
+      pos: -4.5,19.5
+      parent: 60
+  - uid: 12190
+    components:
+    - type: Transform
+      pos: -4.5,14.5
+      parent: 60
+  - uid: 13799
+    components:
+    - type: Transform
+      pos: -4.5,15.5
+      parent: 60
+- proto: HLLockerFreezer
+  entities:
+  - uid: 2623
+    components:
+    - type: Transform
+      pos: 26.5,-27.5
+      parent: 60
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 2619
+          - 19882
+          - 21020
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+- proto: HLLockerFreezerVaultFilled
+  entities:
+  - uid: 2252
+    components:
+    - type: Transform
+      pos: 3.5,-5.5
       parent: 60
 - proto: HLLockerHeadOfPersonnelFilled
   entities:
@@ -119146,6 +119231,47 @@ entities:
     - type: Transform
       pos: -20.5,1.5
       parent: 60
+- proto: HLLockerMedicalFilled
+  entities:
+  - uid: 2900
+    components:
+    - type: Transform
+      pos: 49.5,-8.5
+      parent: 60
+  - uid: 4136
+    components:
+    - type: Transform
+      pos: 48.5,-8.5
+      parent: 60
+- proto: HLLockerMedicineFilled
+  entities:
+  - uid: 5681
+    components:
+    - type: Transform
+      pos: 43.5,-34.5
+      parent: 60
+  - uid: 7162
+    components:
+    - type: Transform
+      pos: 32.5,-10.5
+      parent: 60
+  - uid: 13646
+    components:
+    - type: Transform
+      pos: 32.5,-16.5
+      parent: 60
+  - uid: 13647
+    components:
+    - type: Transform
+      pos: 35.5,-16.5
+      parent: 60
+- proto: HLLockerParamedicFilled
+  entities:
+  - uid: 185
+    components:
+    - type: Transform
+      pos: 49.5,-16.5
+      parent: 60
 - proto: HLLockerQuarterMasterFilled
   entities:
   - uid: 15570
@@ -119171,12 +119297,175 @@ entities:
           showEnts: False
           occludes: True
           ent: null
+- proto: HLLockerSalvageSpecialistFilledHardsuit
+  entities:
+  - uid: 215
+    components:
+    - type: Transform
+      pos: 36.5,1.5
+      parent: 60
+  - uid: 7792
+    components:
+    - type: Transform
+      pos: 36.5,0.5
+      parent: 60
+  - uid: 11968
+    components:
+    - type: Transform
+      pos: 36.5,-0.5
+      parent: 60
+- proto: HLLockerSecurityFilled
+  entities:
+  - uid: 357
+    components:
+    - type: Transform
+      anchored: True
+      pos: -24.5,-17.5
+      parent: 60
+    - type: Physics
+      bodyType: Static
+  - uid: 364
+    components:
+    - type: Transform
+      anchored: True
+      pos: -24.5,-18.5
+      parent: 60
+    - type: Physics
+      bodyType: Static
+  - uid: 491
+    components:
+    - type: Transform
+      anchored: True
+      pos: -24.5,-16.5
+      parent: 60
+    - type: Physics
+      bodyType: Static
+  - uid: 541
+    components:
+    - type: Transform
+      anchored: True
+      pos: -28.5,-16.5
+      parent: 60
+    - type: Physics
+      bodyType: Static
+  - uid: 552
+    components:
+    - type: Transform
+      anchored: True
+      pos: -28.5,-17.5
+      parent: 60
+    - type: Physics
+      bodyType: Static
+  - uid: 562
+    components:
+    - type: Transform
+      anchored: True
+      pos: -28.5,-18.5
+      parent: 60
+    - type: Physics
+      bodyType: Static
+- proto: HLLockerWardenFilledHardsuit
+  entities:
+  - uid: 1560
+    components:
+    - type: Transform
+      pos: -28.5,-11.5
+      parent: 60
+- proto: HLLockerWeldingSuppliesFilled
+  entities:
+  - uid: 3316
+    components:
+    - type: Transform
+      pos: 30.5,-53.5
+      parent: 60
+  - uid: 3524
+    components:
+    - type: Transform
+      pos: 14.5,-50.5
+      parent: 60
+  - uid: 5917
+    components:
+    - type: Transform
+      pos: -64.5,-19.5
+      parent: 60
+  - uid: 7183
+    components:
+    - type: Transform
+      pos: 13.5,-20.5
+      parent: 60
+  - uid: 13755
+    components:
+    - type: Transform
+      pos: 7.5,12.5
+      parent: 60
+  - uid: 21463
+    components:
+    - type: Transform
+      pos: -12.5,-34.5
+      parent: 60
+  - uid: 21621
+    components:
+    - type: Transform
+      pos: 17.5,-40.5
+      parent: 60
 - proto: HLSuitStorageCaptain
   entities:
   - uid: 2926
     components:
     - type: Transform
       pos: -2.5,-2.5
+      parent: 60
+- proto: HLSuitStorageCE
+  entities:
+  - uid: 13099
+    components:
+    - type: Transform
+      pos: 12.5,20.5
+      parent: 60
+- proto: HLSuitStorageSec
+  entities:
+  - uid: 1864
+    components:
+    - type: Transform
+      pos: -24.5,-0.5
+      parent: 60
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 1904
+  - uid: 1906
+    components:
+    - type: Transform
+      pos: -24.5,-1.5
+      parent: 60
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 6707
+  - uid: 5313
+    components:
+    - type: Transform
+      pos: -24.5,0.5
+      parent: 60
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 5430
+- proto: HLSuitStorageWarden
+  entities:
+  - uid: 5909
+    components:
+    - type: Transform
+      pos: -24.5,-12.5
       parent: 60
 - proto: HolofanProjector
   entities:
@@ -120634,54 +120923,6 @@ entities:
         6207:
         - - Pressed
           - Toggle
-- proto: LockerAtmosphericsFilledHardsuit
-  entities:
-  - uid: 15401
-    components:
-    - type: Transform
-      pos: -24.5,32.5
-      parent: 60
-  - uid: 15567
-    components:
-    - type: Transform
-      pos: -28.5,32.5
-      parent: 60
-  - uid: 15568
-    components:
-    - type: Transform
-      pos: -26.5,32.5
-      parent: 60
-- proto: LockerBoozeFilled
-  entities:
-  - uid: 2078
-    components:
-    - type: Transform
-      pos: 11.5,-36.5
-      parent: 60
-  - uid: 2173
-    components:
-    - type: Transform
-      pos: 11.5,-34.5
-      parent: 60
-- proto: LockerBotanistFilled
-  entities:
-  - uid: 2199
-    components:
-    - type: Transform
-      pos: 32.5,-35.5
-      parent: 60
-  - uid: 2328
-    components:
-    - type: Transform
-      pos: 33.5,-35.5
-      parent: 60
-- proto: LockerChemistryFilled
-  entities:
-  - uid: 7228
-    components:
-    - type: Transform
-      pos: 40.5,-32.5
-      parent: 60
 - proto: LockerClown
   entities:
   - uid: 6580
@@ -120695,78 +120936,6 @@ entities:
     components:
     - type: Transform
       pos: -26.5,-26.5
-      parent: 60
-- proto: LockerElectricalSuppliesFilled
-  entities:
-  - uid: 827
-    components:
-    - type: Transform
-      pos: 13.5,-19.5
-      parent: 60
-  - uid: 6387
-    components:
-    - type: Transform
-      pos: 6.5,12.5
-      parent: 60
-  - uid: 11679
-    components:
-    - type: Transform
-      pos: -3.5,-48.5
-      parent: 60
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.1496
-        moles:
-        - 1.6495836
-        - 6.2055764
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-  - uid: 19149
-    components:
-    - type: Transform
-      pos: 20.5,16.5
-      parent: 60
-- proto: LockerEngineerFilledHardsuit
-  entities:
-  - uid: 6543
-    components:
-    - type: Transform
-      pos: -4.5,13.5
-      parent: 60
-  - uid: 6912
-    components:
-    - type: Transform
-      pos: -4.5,16.5
-      parent: 60
-  - uid: 6913
-    components:
-    - type: Transform
-      pos: -4.5,18.5
-      parent: 60
-  - uid: 6914
-    components:
-    - type: Transform
-      pos: -4.5,19.5
-      parent: 60
-  - uid: 12190
-    components:
-    - type: Transform
-      pos: -4.5,14.5
-      parent: 60
-  - uid: 13799
-    components:
-    - type: Transform
-      pos: -4.5,15.5
       parent: 60
 - proto: LockerEvidence
   entities:
@@ -120836,67 +121005,6 @@ entities:
     - type: Transform
       pos: -7.5,-17.5
       parent: 60
-- proto: LockerFreezer
-  entities:
-  - uid: 2623
-    components:
-    - type: Transform
-      pos: 26.5,-27.5
-      parent: 60
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 2619
-          - 19882
-          - 21020
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-- proto: LockerFreezerVaultFilled
-  entities:
-  - uid: 2252
-    components:
-    - type: Transform
-      pos: 3.5,-5.5
-      parent: 60
-- proto: LockerMedicalFilled
-  entities:
-  - uid: 2900
-    components:
-    - type: Transform
-      pos: 49.5,-8.5
-      parent: 60
-  - uid: 4136
-    components:
-    - type: Transform
-      pos: 48.5,-8.5
-      parent: 60
-- proto: LockerMedicineFilled
-  entities:
-  - uid: 5681
-    components:
-    - type: Transform
-      pos: 43.5,-34.5
-      parent: 60
-  - uid: 7162
-    components:
-    - type: Transform
-      pos: 32.5,-10.5
-      parent: 60
-  - uid: 13646
-    components:
-    - type: Transform
-      pos: 32.5,-16.5
-      parent: 60
-  - uid: 13647
-    components:
-    - type: Transform
-      pos: 35.5,-16.5
-      parent: 60
 - proto: LockerMime
   entities:
   - uid: 24249
@@ -120904,130 +121012,12 @@ entities:
     - type: Transform
       pos: 25.5,-11.5
       parent: 60
-- proto: LockerParamedicFilled
-  entities:
-  - uid: 185
-    components:
-    - type: Transform
-      pos: 49.5,-16.5
-      parent: 60
-- proto: LockerSalvageSpecialistFilledHardsuit
-  entities:
-  - uid: 215
-    components:
-    - type: Transform
-      pos: 36.5,1.5
-      parent: 60
-  - uid: 7792
-    components:
-    - type: Transform
-      pos: 36.5,0.5
-      parent: 60
-  - uid: 11968
-    components:
-    - type: Transform
-      pos: 36.5,-0.5
-      parent: 60
-- proto: LockerSecurityFilled
-  entities:
-  - uid: 357
-    components:
-    - type: Transform
-      anchored: True
-      pos: -24.5,-17.5
-      parent: 60
-    - type: Physics
-      bodyType: Static
-  - uid: 364
-    components:
-    - type: Transform
-      anchored: True
-      pos: -24.5,-18.5
-      parent: 60
-    - type: Physics
-      bodyType: Static
-  - uid: 491
-    components:
-    - type: Transform
-      anchored: True
-      pos: -24.5,-16.5
-      parent: 60
-    - type: Physics
-      bodyType: Static
-  - uid: 541
-    components:
-    - type: Transform
-      anchored: True
-      pos: -28.5,-16.5
-      parent: 60
-    - type: Physics
-      bodyType: Static
-  - uid: 552
-    components:
-    - type: Transform
-      anchored: True
-      pos: -28.5,-17.5
-      parent: 60
-    - type: Physics
-      bodyType: Static
-  - uid: 562
-    components:
-    - type: Transform
-      anchored: True
-      pos: -28.5,-18.5
-      parent: 60
-    - type: Physics
-      bodyType: Static
 - proto: LockerWallColorMedicalFilled
   entities:
   - uid: 8969
     components:
     - type: Transform
       pos: 29.5,-18.5
-      parent: 60
-- proto: LockerWardenFilledHardsuit
-  entities:
-  - uid: 1560
-    components:
-    - type: Transform
-      pos: -28.5,-11.5
-      parent: 60
-- proto: LockerWeldingSuppliesFilled
-  entities:
-  - uid: 3316
-    components:
-    - type: Transform
-      pos: 30.5,-53.5
-      parent: 60
-  - uid: 3524
-    components:
-    - type: Transform
-      pos: 14.5,-50.5
-      parent: 60
-  - uid: 5917
-    components:
-    - type: Transform
-      pos: -64.5,-19.5
-      parent: 60
-  - uid: 7183
-    components:
-    - type: Transform
-      pos: 13.5,-20.5
-      parent: 60
-  - uid: 13755
-    components:
-    - type: Transform
-      pos: 7.5,12.5
-      parent: 60
-  - uid: 21463
-    components:
-    - type: Transform
-      pos: -12.5,-34.5
-      parent: 60
-  - uid: 21621
-    components:
-    - type: Transform
-      pos: 17.5,-40.5
       parent: 60
 - proto: LogicGateOr
   entities:
@@ -123341,6 +123331,10 @@ entities:
     - type: Transform
       pos: -111.5,25.5
       parent: 60
+    - type: Battery
+      startingCharge: 264688.75
+    - type: ApcPowerReceiverBattery
+      enabled: True
 - proto: PlushieArachind
   entities:
   - uid: 25786
@@ -143627,13 +143621,6 @@ entities:
     - type: Transform
       pos: -40.5,3.5
       parent: 60
-- proto: SuitStorageCE
-  entities:
-  - uid: 13099
-    components:
-    - type: Transform
-      pos: 12.5,20.5
-      parent: 60
 - proto: SuitStorageEVA
   entities:
   - uid: 1885
@@ -143674,51 +143661,6 @@ entities:
     components:
     - type: Transform
       pos: -5.5,-17.5
-      parent: 60
-- proto: SuitStorageSec
-  entities:
-  - uid: 1864
-    components:
-    - type: Transform
-      pos: -24.5,-0.5
-      parent: 60
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 1904
-  - uid: 1906
-    components:
-    - type: Transform
-      pos: -24.5,-1.5
-      parent: 60
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 6707
-  - uid: 5313
-    components:
-    - type: Transform
-      pos: -24.5,0.5
-      parent: 60
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 5430
-- proto: SuitStorageWarden
-  entities:
-  - uid: 5909
-    components:
-    - type: Transform
-      pos: -24.5,-12.5
       parent: 60
 - proto: SurveillanceCameraArmouredSecurity
   entities:

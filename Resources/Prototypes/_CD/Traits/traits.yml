@@ -8,8 +8,6 @@
     components:
       - Silicon
       - BorgChassis
-  excludedSpecies:
-    - IPC
   # End DeltaV Additions - blacklist IPCs
   components:
     - type: Synth

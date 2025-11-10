@@ -67,7 +67,7 @@ public abstract class SharedModifyMarkingsSystem : EntitySystem
                 continue;
 
             // You cannot toggle other people's genitals
-            if (mProt.BodyPart == HumanoidVisualLayers.Genital && args.User != args.Target)
+            if (mProt.MarkingCategory != MarkingCategories.Genital && args.User != args.Target)
                 continue;
 
             var localizedName = Loc.GetString($"marking-{mProt.ID}");
@@ -82,8 +82,12 @@ public abstract class SharedModifyMarkingsSystem : EntitySystem
                 HumanoidVisualLayers.UndergarmentTop => new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/bra.png")),
                 HumanoidVisualLayers.UndergarmentBottom => new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/underpants.png")),
                 HumanoidVisualLayers.Genital => new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/love.png")),
+                HumanoidVisualLayers.Penis => new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/love.png")),
+                HumanoidVisualLayers.Breasts => new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/love.png")),
                 _ => new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/undies.png"))
             };
+
+            var delay = mProt.MarkingCategory == MarkingCategories.Genital ? TimeSpan.Zero : TimeSpan.FromSeconds(2);
 
             // add the verb
             Verb verb = new()
@@ -105,7 +109,7 @@ public abstract class SharedModifyMarkingsSystem : EntitySystem
                     var doAfterArgs = new DoAfterArgs(
                         _entMan,
                         user,
-                        TimeSpan.FromSeconds(2),
+                        delay,
                         ev,
                         target,
                         target,
@@ -136,7 +140,7 @@ public abstract class SharedModifyMarkingsSystem : EntitySystem
                         _popupSystem.PopupClient(targetPopup, target, target, PopupType.MediumCaution);
                     }
 
-                    if (_net.IsServer && mProt.BodyPart != HumanoidVisualLayers.Genital)
+                    if (_net.IsServer && mProt.MarkingCategory != MarkingCategories.Genital)
                         _audio.PlayEntity(ent.Comp.Sound, Filter.Entities(user, target), target, false);
 
                     _doAfterSystem.TryStartDoAfter(doAfterArgs);

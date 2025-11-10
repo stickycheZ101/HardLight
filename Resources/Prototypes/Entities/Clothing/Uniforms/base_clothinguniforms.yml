@@ -31,6 +31,7 @@
     slots:
     - Genital
     - Penis
+    - Breasts # HL: Jumpsuits hide breasts
 
 - type: entity
   abstract: true

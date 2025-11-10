@@ -40,6 +40,7 @@ namespace Content.Shared.Humanoid.Markings
                 HumanoidVisualLayers.UndergarmentBottom => MarkingCategories.UndergarmentBottom,
                 HumanoidVisualLayers.Penis => MarkingCategories.Genital,
                 HumanoidVisualLayers.Genital => MarkingCategories.Genital,
+                HumanoidVisualLayers.Breasts => MarkingCategories.Genital,
                 HumanoidVisualLayers.RArm => MarkingCategories.Arms,
                 HumanoidVisualLayers.LArm => MarkingCategories.Arms,
                 HumanoidVisualLayers.RHand => MarkingCategories.Arms,

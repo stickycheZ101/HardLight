@@ -748,6 +748,7 @@
     - EmptyMedkitsStatic
     - SurgeryStatic
     - NFMedicalStatic # Frontier
+    - StratosUniformStatic # HL
     dynamicPacks:
     - Chemistry
     - SyringeGuns # DeltaV
@@ -812,7 +813,9 @@
     emagStaticPacks:
     # - ClothingColComm # Frontier
     - ClothingSyndie
-    - ClothingNT # HL
+    # HL Starts
+    - ClothingNT
+    # HL Ends
   - type: MaterialStorage
     whitelist:
       tags:
