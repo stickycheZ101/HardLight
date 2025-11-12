@@ -32,7 +32,7 @@
 - type: guideEntry
   id: AlertLevels
   name: Station Alert Levels
-  text: "/Serverinfo/_HL/Guidebook/SoP/AlertLevels/AlertLevelsSOP.xml"
+  text: "/ServerInfo/_HL/Guidebook/SoP/AlertLevels/AlertLevelsSOP.xml"
   children:
   - GreenAlert
   - BlueAlert
@@ -47,44 +47,44 @@
 - type: guideEntry
   id: DeltaAlert
   name: Delta Alert - COCKED PISTOL
-  text: "/Serverinfo/_HL/Guidebook/SoP/AlertLevels/DeltaAlertSOP.xml"
+  text: "/ServerInfo/_HL/Guidebook/SoP/AlertLevels/DeltaAlertSOP.xml"
 
 - type: guideEntry
   id: GammaAlert
   name: Gamma Alert - FAST PACE
-  text: "/Serverinfo/_HL/Guidebook/SoP/AlertLevels/GammaAlertSOP.xml"
+  text: "/ServerInfo/_HL/Guidebook/SoP/AlertLevels/GammaAlertSOP.xml"
 
 - type: guideEntry
   id: OmicronAlert
   name: Omicron Alert - RAGNARÖK
-  text: "/Serverinfo/_HL/Guidebook/SoP/AlertLevels/OmicronAlertSOP.xml"
+  text: "/ServerInfo/_HL/Guidebook/SoP/AlertLevels/OmicronAlertSOP.xml"
 
 - type: guideEntry
   id: VioletAlert
   name: Violet Alert - CORRUPTER
-  text: "/Serverinfo/_HL/Guidebook/SoP/AlertLevels/VioletAlertSOP.xml"
+  text: "/ServerInfo/_HL/Guidebook/SoP/AlertLevels/VioletAlertSOP.xml"
 
 - type: guideEntry
   id: YellowAlert
   name: Yellow Alert - RAY DOWN
-  text: "/Serverinfo/_HL/Guidebook/SoP/AlertLevels/YellowAlertSOP.xml"
+  text: "/ServerInfo/_HL/Guidebook/SoP/AlertLevels/YellowAlertSOP.xml"
 
 - type: guideEntry
   id: RedAlert
   name: Red Alert - ROUND HOUSE
-  text: "/Serverinfo/_HL/Guidebook/SoP/AlertLevels/RedAlertSOP.xml"
+  text: "/ServerInfo/_HL/Guidebook/SoP/AlertLevels/RedAlertSOP.xml"
 
 - type: guideEntry
   id: BlueAlert
   name: Blue Alert - DOUBLE TAKE
-  text: "/Serverinfo/_HL/Guidebook/SoP/AlertLevels/BlueAlertSOP.xml"
+  text: "/ServerInfo/_HL/Guidebook/SoP/AlertLevels/BlueAlertSOP.xml"
 
 - type: guideEntry
   id: GreenAlert
   name: Green Alert - FADE OUT
-  text: "/Serverinfo/_HL/Guidebook/SoP/AlertLevels/GreenAlertSOP.xml"
+  text: "/ServerInfo/_HL/Guidebook/SoP/AlertLevels/GreenAlertSOP.xml"
 
 - type: guideEntry
   id: WhiteAlert
   name: White Alert - MIND FLAYER
-  text: "/Serverinfo/_HL/Guidebook/SoP/AlertLevels/WhiteAlertSOP.xml"
+  text: "/ServerInfo/_HL/Guidebook/SoP/AlertLevels/WhiteAlertSOP.xml"
