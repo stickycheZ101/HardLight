@@ -9,6 +9,7 @@
       types:
         Piercing: 500
         Shock: 0
+  - type: ShipWeaponProjectile
   - type: EmpOnTrigger
     range: 4
     energyConsumption: 2700000
