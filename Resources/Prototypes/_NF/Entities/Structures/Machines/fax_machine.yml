@@ -145,7 +145,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Trade Mall NFSD Post"
+    name: "Trade Mall Colsec Post"
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -199,7 +199,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "NFSD Outpost Sheriff"
+    name: "Colsec Outpost Sheriff"
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -208,7 +208,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "NFSD Outpost Lawyer"
+    name: "Colsec Outpost Lawyer"
 
 - type: entity
   parent: FaxMachineBase

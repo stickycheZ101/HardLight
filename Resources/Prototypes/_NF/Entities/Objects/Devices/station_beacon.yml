@@ -111,7 +111,7 @@
   suffix: NFSD
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-nfsd    
+    defaultText: station-beacon-Colsec    
     color: "#f1b223"
 
 - type: entity
@@ -120,7 +120,7 @@
   suffix: NFSD Brig
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-nfsd-brig
+    defaultText: station-beacon-Colsec-brig
 
 - type: entity
   parent: DefaultStationBeacon

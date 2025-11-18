@@ -100,7 +100,7 @@
   parent: NFClothingHeadHardsuitWithLightBaseNfsd
   id: ClothingHeadHelmetHardsuitNfsdBronze
 #  categories: [ HideSpawnMenu ]
-  name: NFSD patrol suit helmet
+  name: Colsec patrol suit helmet
   description: Lightly armored softsuit helmet for beat-cop needs.
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
   parent: NFClothingHeadHardsuitWithLightBaseNfsd
   id: ClothingHeadHelmetHardsuitNfsdExperimental
 #  categories: [ HideSpawnMenu ]
-  name: NFSD experimental combat suit helmet
+  name: Colsec experimental combat suit helmet
   description: Heavily armored hardsuit helmet for NFSD raids.
   components:
   - type: Sprite
@@ -184,7 +184,7 @@
   parent: NFClothingHeadHardsuitWithLightBaseNfsd
   id: ClothingHeadHelmetHardsuitNfsdCombat
 #  categories: [ HideSpawnMenu ]
-  name: NFSD combat suit helmet
+  name: Colsec combat suit helmet
   description: Medium armored hardsuit helmet for NFSD raids.
   components:
   - type: Sprite
@@ -209,7 +209,7 @@
   parent: NFClothingHeadHardsuitWithLightBaseNfsd
   id: ClothingHeadHelmetHardsuitNfsdCommand
 #  categories: [ HideSpawnMenu ]
-  name: NFSD command combat suit helmet
+  name: Colsec command combat suit helmet
   description: Medium armored hardsuit helmet for NFSD raids.
   components:
   - type: Sprite

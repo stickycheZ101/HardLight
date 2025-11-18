@@ -1,7 +1,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteNfsd
-  name: NFSD door remote
+  name: Colsec door remote
   components:
   - type: Sprite
     layers:

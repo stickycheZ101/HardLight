@@ -278,7 +278,7 @@
   parent: BaseStationAdminBankATM
   name: Station NFSD Administration Console
   id: StationAdminBankATMNfsd
-  description: Used to transfer funds to and from NFSD's bank account.
+  description: Used to transfer funds to and from Colsec's bank account.
   suffix: NFSD
   components:
   - type: StationBankATM

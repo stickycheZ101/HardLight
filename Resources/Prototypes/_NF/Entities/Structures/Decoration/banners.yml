@@ -1,7 +1,7 @@
 - type: entity
   id: BannerNfsd
   parent: BannerBase
-  name: NFSD banner
+  name: Colsec banner
   description: A banner displaying the colors of the New Frontier Sheriff's Department.
   components:
   - type: Sprite
@@ -14,7 +14,7 @@
 - type: entity
   id: FlagNfsd
   parent: BannerBase
-  name: NFSD flag
+  name: Colsec flag
   description: A flag displaying the colors of the New Frontier Sheriff's Department.
   components:
   - type: Sprite

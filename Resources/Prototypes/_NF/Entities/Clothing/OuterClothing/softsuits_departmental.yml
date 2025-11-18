@@ -1327,8 +1327,8 @@
 - type: entity
   parent: NFDepartmentalEVASuit
   id: ClothingOuterEVASuitNfsd
-  name: NFSD EVA suit
-  description: An EVA suit with a built-in helmet commonly issued to NFSD personnel.
+  name: Colsec EVA suit
+  description: An EVA suit with a built-in helmet commonly issued to Colsec personnel.
   components:
   - type: Sprite
     layers:
