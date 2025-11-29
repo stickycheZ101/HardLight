@@ -12,9 +12,9 @@
   id: Tinnia
   parent: BasePOI
   name: "Tinnia's Rest"
-  minimumDistance: 1200
-  maximumDistance: 2900
-  spawnGroup: MarketStation
+  minimumDistance: 3400
+  maximumDistance: 5800
+  spawnGroup: RestStop
   gridPath: /Maps/_NF/POI/tinnia.yml
   addComponents:
   - type: StationTransit

@@ -76,10 +76,10 @@
       - EncryptionKeyCommon
 
 - type: entity
-  parent: [ ClothingHeadset, BaseColcommCommandContraband ] # Frontier: Added BaseColcommCommandContraband, removed BaseColcommContraband.
-  id: ClothingHeadsetColCom
-  name: ColComm headset
-  description: A headset used by the upper echelons of Nanotrasen.
+  parent: [ ClothingHeadset, BaseCentcommContraband ]
+  id: ClothingHeadsetCentCom
+  name: CentComm headset
+  description: A headset used by the upper echelons of the Trans-Solar Federation.
   components:
   - type: ContainerFill
     containers:
