@@ -854,8 +854,8 @@
       capacity: 3
       count: 3
     - type: MovementSpeedModifier
-      baseWalkSpeed : 4
-      baseSprintSpeed : 5
+      baseWalkSpeed : 3
+      baseSprintSpeed : 4
     - type: Gun
       fireRate: 0.5
       useKey: false
@@ -897,8 +897,8 @@
         1000: Critical
         1100: Dead
     - type: MovementSpeedModifier
-      baseWalkSpeed : 6
-      baseSprintSpeed : 8
+      baseWalkSpeed : 3
+      baseSprintSpeed : 5
     - type: MeleeWeapon
       damage:
         types:
@@ -985,7 +985,7 @@
         300: Dead
     - type: MovementSpeedModifier
       baseWalkSpeed : 6
-      baseSprintSpeed : 9
+      baseSprintSpeed : 7
     - type: MeleeWeapon
       damage:
         types:
@@ -1052,8 +1052,8 @@
         1100: Critical
         1400: Dead
     - type: MovementSpeedModifier
-      baseWalkSpeed : 6
-      baseSprintSpeed : 8
+      baseWalkSpeed : 2
+      baseSprintSpeed : 4
     - type: MeleeWeapon
       damage:
         types:

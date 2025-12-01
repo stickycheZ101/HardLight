@@ -134,12 +134,12 @@
   - type: PirateBountyItem
     id: PMCGun
 
-- type: entity # Vulcan CFCM Variant
-  parent:
-  - WeaponRifleVulcan
-  name: CFCM Vulcan (762x51mm)
-  id: WeaponRifleVulcanCFCM
-  description: A Vulcan configured for CFCM issue and registration.
-  components:
-  - type: PirateBountyItem
-    id: CFCMLongarm
+#- type: entity # Vulcan CFCM Variant
+#  parent:
+#  - WeaponRifleVulcan
+#  name: CFCM Vulcan (762x51mm)
+#  id: WeaponRifleVulcanCFCM
+#  description: A Vulcan configured for CFCM issue and registration.
+#  components:
+#  - type: PirateBountyItem
+#    id: CFCMLongarm
