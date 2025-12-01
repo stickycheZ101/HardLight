@@ -1,5 +1,7 @@
 using Content.Shared._Shitmed.Humanoid.Events;
 using Content.Shared.Actions;
+using Content.Shared.Charges.Components;
+using Content.Shared.Charges.Systems;
 using Content.Shared.Hands.Components;
 using Content.Shared.Humanoid;
 using Content.Shared.Popups;
@@ -10,6 +12,7 @@ public abstract class SharedKitsuneSystem : EntitySystem
 {
     [Dependency] private readonly SharedPointLightSystem _light = default!;
     [Dependency] private readonly SharedActionsSystem _actions = default!;
+    [Dependency] private readonly SharedChargesSystem _charges = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
 
     public override void Initialize()
@@ -49,10 +52,14 @@ public abstract class SharedKitsuneSystem : EntitySystem
         }
 
         // This caps the amount of fox fire summons at a time to the charge count, deleting the oldest fire when exceeded.
-        if (_actions.GetCharges(ent.Comp.FoxfireAction) < 1)
+        if (ent.Comp.FoxfireAction is { } foxfireAction && TryComp<LimitedChargesComponent>(foxfireAction, out var foxfireCharges))
         {
-            QueueDel(ent.Comp.ActiveFoxFires[0]);
-            ent.Comp.ActiveFoxFires.RemoveAt(0);
+            TryComp<AutoRechargeComponent>(foxfireAction, out var foxfireRecharge);
+            if (_charges.GetCurrentCharges(new Entity<LimitedChargesComponent?, AutoRechargeComponent?>(foxfireAction, foxfireCharges, foxfireRecharge)) < 1)
+            {
+                QueueDel(ent.Comp.ActiveFoxFires[0]);
+                ent.Comp.ActiveFoxFires.RemoveAt(0);
+            }
         }
 
         var fireEnt = Spawn(ent.Comp.FoxfirePrototype, Transform(ent).Coordinates);
@@ -76,14 +83,19 @@ public abstract class SharedKitsuneSystem : EntitySystem
         kitsuneComp.ActiveFoxFires.Remove(ent);
 
         // Refund the fox fire charge
-        _actions.AddCharges(kitsuneComp.FoxfireAction, 1);
+        if (kitsuneComp.FoxfireAction is not { } foxfireAction)
+            return;
+
+        if (!TryComp<LimitedChargesComponent>(foxfireAction, out var chargesComp))
+            return;
+
+        TryComp<AutoRechargeComponent>(foxfireAction, out var rechargeComp);
+        var chargesEntity = new Entity<LimitedChargesComponent?, AutoRechargeComponent?>(foxfireAction, chargesComp, rechargeComp);
+        _charges.AddCharges(chargesEntity, 1);
 
         // If charges exceeds the maximum then set charges to max
-        var foxfireAction = kitsuneComp.FoxfireAction;
-        if (!TryComp<InstantActionComponent>(foxfireAction, out var instantActionComp))
-            return;
-        if (_actions.GetCharges(foxfireAction) > instantActionComp.MaxCharges)
-            _actions.SetCharges(foxfireAction, instantActionComp.MaxCharges);
+        if (_charges.GetCurrentCharges(chargesEntity) > chargesComp.MaxCharges)
+            _charges.SetCharges(chargesEntity, chargesComp.MaxCharges);
 
         Dirty(kitsune, kitsuneComp);
     }

@@ -535,7 +535,7 @@ public abstract class SharedActionsSystem : EntitySystem
         }
 
         // Server-side fallback: if this is the xeno weeds action and no handler marked it handled,
-        // spawn weeds at the performer’s snapped coordinates and start the use delay.
+        // spawn weeds at the performerï¿½s snapped coordinates and start the use delay.
         if (isWeeds && performEvent != null && !performEvent.Handled)
         {
             if (TryComp(user, out XenoComponent? xeno))

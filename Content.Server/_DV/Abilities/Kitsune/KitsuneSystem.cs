@@ -5,6 +5,8 @@ using Content.Server.Popups;
 using Content.Shared._DV.Abilities.Kitsune;
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
+using Content.Shared.Charges.Components;
+using Content.Shared.Charges.Systems;
 using Content.Shared.NPC.Components;
 using Content.Shared.NPC.Systems;
 using Content.Shared.Polymorph;
@@ -21,6 +23,7 @@ public sealed class KitsuneSystem : SharedKitsuneSystem
     [Dependency] private readonly AccessReaderSystem _reader = default!;
     [Dependency] private readonly NpcFactionSystem _faction = default!;
     [Dependency] private readonly ActionsSystem _actions = default!;
+    [Dependency] private readonly SharedChargesSystem _charges = default!;
 
     public override void Initialize()
     {
@@ -39,7 +42,23 @@ public sealed class KitsuneSystem : SharedKitsuneSystem
             return;
         newKitsune.ActiveFoxFires = oldKitsune.ActiveFoxFires;
 
-        _actions.SetCharges(newKitsune.FoxfireAction, _actions.GetCharges(oldKitsune.FoxfireAction));
+        // Transfer fox fire charges
+        if (oldKitsune.FoxfireAction is { } oldAction && newKitsune.FoxfireAction is { } newAction)
+        {
+            if (TryComp<LimitedChargesComponent>(oldAction, out var oldCharges))
+            {
+                TryComp<AutoRechargeComponent>(oldAction, out var oldRecharge);
+                var oldChargesEntity = new Entity<LimitedChargesComponent?, AutoRechargeComponent?>(oldAction, oldCharges, oldRecharge);
+                var chargeCount = _charges.GetCurrentCharges(oldChargesEntity);
+
+                if (TryComp<LimitedChargesComponent>(newAction, out var newCharges))
+                {
+                    TryComp<AutoRechargeComponent>(newAction, out var newRecharge);
+                    var newChargesEntity = new Entity<LimitedChargesComponent?, AutoRechargeComponent?>(newAction, newCharges, newRecharge);
+                    _charges.SetCharges(newChargesEntity, chargeCount);
+                }
+            }
+        }
 
         foreach (var fireUid in newKitsune.ActiveFoxFires)
         {
