@@ -470,38 +470,7 @@ public sealed partial class MarkingPicker : Control
 
         if (_currentMarkings.PointsLeft(_selectedMarkingCategory) == 0 && !Forced)
         {
-            // If no points left, replace an existing non-forced marking in this category
-            if (_currentMarkings.Markings.TryGetValue(_selectedMarkingCategory, out var existingList) && existingList.Count > 0)
-            {
-                // Prefer removing the last added marking (top visual layer)
-                var removeMarking = existingList[existingList.Count - 1];
-                if (!removeMarking.Forced)
-                {
-                    _currentMarkings.Remove(_selectedMarkingCategory, removeMarking.MarkingId);
-
-                    // Remove corresponding UI item from used list if present
-                    for (var i = 0; i < CMarkingsUsed.Count; i++)
-                    {
-                        var item = CMarkingsUsed[i];
-                        if (item.Metadata is MarkingPrototype proto && proto.ID == removeMarking.MarkingId)
-                        {
-                            CMarkingsUsed.Remove(item);
-                            break;
-                        }
-                    }
-
-                    UpdatePoints();
-                }
-                else
-                {
-                    // All existing markings are forced; cannot replace
-                    return;
-                }
-            }
-            else
-            {
-                return;
-            }
+            return;
         }
 
         var marking = (MarkingPrototype) _selectedUnusedMarking.Metadata!;
