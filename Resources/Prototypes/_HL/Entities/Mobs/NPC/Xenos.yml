@@ -22,6 +22,7 @@
     intervalSeconds: 1
     healPerSecond: .5
     critMultiplier: .25
+  - type: TrapAvoider
   - type: HTN
     rootTask:
       task: XenoCompound
@@ -123,11 +124,11 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      50: Critical
-      100: Dead
+      100: Critical
+      120: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
-      25: 0.5
+      95: 0.5
   - type: Stamina
     critThreshold: 200
   - type: Bloodstream
@@ -135,7 +136,7 @@
     bloodMaxVolume: 650
   - type: LayingDown
   - type: MeleeWeapon
-    altDisarm: true
+    altDisarm: false
     angle: 0
     soundHit:
      collection: AlienClaw
@@ -212,15 +213,14 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/praetorian.rsi
-    offset: 0,0.4
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: alive
   - type: MobThresholds
     thresholds:
       0: Alive
-      150: Critical
-      200: Dead
+      200: Critical
+      250: Dead
   - type: Stamina
     critThreshold: 300
   - type: MovementSpeedModifier
@@ -228,11 +228,12 @@
     baseSprintSpeed : 6
   - type: SlowOnDamage
     speedModifierThresholds:
-      50: 0.7
+      150: 0.7
   - type: Xeno
     actionIds:
     - ActionXenoRest
     - ActionXenoAcid
+    - ActionXenoTailStab
     - ActionXenoEvolve
     evolveIn: 240
     evolvesTo:
@@ -266,18 +267,17 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/drone.rsi
-    offset: 0,0.2
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: alive
   - type: MobThresholds
     thresholds:
       0: Alive
-      100: Critical
-      150: Dead
+      150: Critical
+      200: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
-      40: 0.7
+      95: 0.7
   - type: MeleeWeapon
     damage:
       groups:
@@ -286,6 +286,7 @@
     actionIds:
     - ActionXenoRest
     - ActionXenoAcid
+    - ActionXenoTailStab
     - ActionXenoEvolve
     evolveIn: 240
     evolvesTo:
@@ -347,7 +348,6 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/queen.rsi
-    offset: 0,0.4
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: alive
@@ -370,6 +370,7 @@
     actionIds:
     - ActionXenoRest
     - ActionXenoAcid
+    - ActionXenoTailStab
     - ActionXenoLayEgg
     evolveIn: 120
     evolvesTo:
@@ -424,7 +425,6 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/ravager.rsi
-    offset: 0,0.5
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: running
@@ -441,7 +441,7 @@
        Brute: 28
   - type: SlowOnDamage
     speedModifierThresholds:
-      50: 0.7
+      95: 0.7
   - type: Fixtures
     fixtures:
       fix1:
@@ -457,6 +457,7 @@
     actionIds:
     - ActionXenoRest
     - ActionXenoAcid
+    - ActionXenoTailStab
     - ActionXenoEvolve
     evolveIn: 240
     evolvesTo:
@@ -479,7 +480,6 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/runner.rsi
-    offset: 0,0.6
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: alive
@@ -510,7 +510,6 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/rouny.rsi
-    offset: 0,0.6
     scale: 0.7, 0.7
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
@@ -555,7 +554,6 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/spitter.rsi
-    offset: 0,0.3
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: alive
@@ -856,8 +854,8 @@
       capacity: 3
       count: 3
     - type: MovementSpeedModifier
-      baseWalkSpeed : 4
-      baseSprintSpeed : 5
+      baseWalkSpeed : 3
+      baseSprintSpeed : 4
     - type: Gun
       fireRate: 0.5
       useKey: false
@@ -899,8 +897,8 @@
         1000: Critical
         1100: Dead
     - type: MovementSpeedModifier
-      baseWalkSpeed : 6
-      baseSprintSpeed : 8
+      baseWalkSpeed : 3
+      baseSprintSpeed : 5
     - type: MeleeWeapon
       damage:
         types:
@@ -910,6 +908,7 @@
       actionIds:
       - ActionXenoRest
       - ActionXenoAcid
+      - ActionXenoTailStab
       - ActionXenoEvolve
       evolveIn: 120
       evolvesTo:
@@ -953,6 +952,7 @@
       actionIds:
       - ActionXenoRest
       - ActionXenoAcid
+      - ActionXenoTailStab
       - ActionXenoEvolve
       evolveIn: 240
       evolvesTo:
@@ -985,7 +985,7 @@
         300: Dead
     - type: MovementSpeedModifier
       baseWalkSpeed : 6
-      baseSprintSpeed : 9
+      baseSprintSpeed : 7
     - type: MeleeWeapon
       damage:
         types:
@@ -994,6 +994,7 @@
       actionIds:
       - ActionXenoRest
       - ActionXenoAcid
+      - ActionXenoTailStab
       - ActionXenoEvolve
       evolveIn: 240
       evolvesTo:
@@ -1051,8 +1052,8 @@
         1100: Critical
         1400: Dead
     - type: MovementSpeedModifier
-      baseWalkSpeed : 6
-      baseSprintSpeed : 8
+      baseWalkSpeed : 2
+      baseSprintSpeed : 4
     - type: MeleeWeapon
       damage:
         types:
@@ -1062,6 +1063,7 @@
       actionIds:
       - ActionXenoRest
       - ActionXenoAcid
+      - ActionXenoTailStab
       - ActionXenoEvolve
       evolveIn: 240
       evolvesTo:
@@ -1133,8 +1135,8 @@
         1100: Critical
         1200: Dead
     - type: MovementSpeedModifier
-      baseWalkSpeed : 4
-      baseSprintSpeed : 5
+      baseWalkSpeed : 2.5
+      baseSprintSpeed : 3
     - type: Sericulture
       action: ActionSericulture
       productionLength: 2
@@ -1143,6 +1145,7 @@
     - type: Xeno
       actionIds:
       - ActionXenoRest
+      - ActionXenoTailStab
       - ActionXenoAcid
       evolveIn: 120
       evolvesTo:
@@ -1305,7 +1308,6 @@
   components:
     - type: Sprite
       sprite: Mobs/Aliens/Xenos/parasite.rsi
-
 - type: entity
   name: Lurker
   id: MobXenoLurker
@@ -1340,11 +1342,12 @@
     - type: MobThresholds
       thresholds:
         0: Alive
-        200: Critical
-        300: Dead
+        700: Critical
+        800: Dead
     - type: Xeno
       actionIds:
       - ActionXenoRest
+      - ActionXenoTailStab
       - ActionXenoEvolve
       evolveIn: 240
       evolvesTo:

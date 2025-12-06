@@ -30,7 +30,7 @@ public sealed class XenoMeleeSystem : SharedXenoMeleeSystem
         base.Initialize();
 
 #if DEBUG
-        _console.RegisterCommand("toggleshowtailattack", (shell, _, _) =>
+   /*     _console.RegisterCommand("toggleshowtailattack", (shell, _, _) =>
         {
             _showTailAttack = !_showTailAttack;
 
@@ -45,7 +45,7 @@ public sealed class XenoMeleeSystem : SharedXenoMeleeSystem
                 _overlays.RemoveOverlay<TailStabOverlay>();
                 shell.WriteLine("Disabled showing tail attack hitboxes");
             }
-        });
+        });  */
 #endif
     }
 

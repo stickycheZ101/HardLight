@@ -4,8 +4,8 @@ meta:
   engineVersion: 267.3.0
   forkId: ""
   forkVersion: ""
-  time: 11/15/2025 20:41:28
-  entityCount: 23705
+  time: 11/24/2025 23:06:03
+  entityCount: 23689
 maps:
 - 1
 grids:
@@ -65388,12 +65388,6 @@ entities:
       parent: 2
 - proto: ComputerBankATM
   entities:
-  - uid: 8934
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 0.5,-61.5
-      parent: 2
   - uid: 8935
     components:
     - type: Transform
@@ -65405,12 +65399,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -12.5,-58.5
-      parent: 2
-  - uid: 8937
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 2.5,-61.5
       parent: 2
   - uid: 8938
     components:
@@ -65756,21 +65744,6 @@ entities:
       parent: 2
 - proto: ComputerRadar
   entities:
-  - uid: 8989
-    components:
-    - type: Transform
-      pos: -21.5,-58.5
-      parent: 2
-  - uid: 8990
-    components:
-    - type: Transform
-      pos: 1.5,-59.5
-      parent: 2
-  - uid: 8991
-    components:
-    - type: Transform
-      pos: -20.5,-58.5
-      parent: 2
   - uid: 8992
     components:
     - type: Transform
@@ -65830,38 +65803,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 17.5,23.5
       parent: 2
-- proto: ComputerShipyard
-  entities:
-  - uid: 9001
-    components:
-    - type: Transform
-      pos: -23.5,-58.5
-      parent: 2
-  - uid: 9002
-    components:
-    - type: Transform
-      pos: 19.5,-58.5
-      parent: 2
-  - uid: 9003
-    components:
-    - type: Transform
-      pos: -22.5,-58.5
-      parent: 2
-  - uid: 9004
-    components:
-    - type: Transform
-      pos: 0.5,-59.5
-      parent: 2
-  - uid: 9005
-    components:
-    - type: Transform
-      pos: 2.5,-59.5
-      parent: 2
-  - uid: 9006
-    components:
-    - type: Transform
-      pos: 18.5,-58.5
-      parent: 2
 - proto: ComputerShipyardBlackMarket
   entities:
   - uid: 9007
@@ -65869,33 +65810,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 50.5,-61.5
-      parent: 2
-- proto: ComputerShipyardExpedition
-  entities:
-  - uid: 9008
-    components:
-    - type: Transform
-      pos: 3.5,-59.5
-      parent: 2
-  - uid: 9009
-    components:
-    - type: Transform
-      pos: 22.5,-58.5
-      parent: 2
-  - uid: 9010
-    components:
-    - type: Transform
-      pos: 20.5,-58.5
-      parent: 2
-  - uid: 9011
-    components:
-    - type: Transform
-      pos: 21.5,-58.5
-      parent: 2
-  - uid: 9012
-    components:
-    - type: Transform
-      pos: -0.5,-59.5
       parent: 2
 - proto: ComputerShipyardNfsd
   entities:
@@ -79135,13 +79049,6 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#FF1212FF'
-  - uid: 10981
-    components:
-    - type: Transform
-      pos: 20.5,-58.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF1212FF'
   - uid: 10982
     components:
     - type: Transform
@@ -84422,14 +84329,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 18.5,-58.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF1212FF'
-  - uid: 11679
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 19.5,-58.5
       parent: 2
     - type: AtmosPipeColor
       color: '#FF1212FF'
@@ -100339,22 +100238,6 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#FF1212FF'
-  - uid: 13666
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 3.5,-59.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF1212FF'
-  - uid: 13667
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -0.5,-59.5
-      parent: 2
-    - type: AtmosPipeColor
-      color: '#FF1212FF'
   - uid: 13668
     components:
     - type: Transform
@@ -101714,6 +101597,19 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#03FCD3FF'
+- proto: Gateway
+  entities:
+  - uid: 13666
+    components:
+    - type: Transform
+      pos: 1.5,-60.5
+      parent: 2
+    - type: Gateway
+      enabled: True
+    - type: DockingArmGenerator
+      dockingArmGrids:
+      - /Maps/Structures/dock.yml
+      generated: []
 - proto: Gauze
   entities:
   - uid: 13798
@@ -116597,11 +116493,6 @@ entities:
     - type: Transform
       pos: 39.5,-18.5
       parent: 2
-  - uid: 16314
-    components:
-    - type: Transform
-      pos: -14.5,-4.5
-      parent: 2
   - uid: 16315
     components:
     - type: Transform
@@ -123435,6 +123326,81 @@ entities:
       parent: 2
 - proto: RandomVending
   entities:
+  - uid: 8934
+    components:
+    - type: Transform
+      pos: -23.5,-58.5
+      parent: 2
+  - uid: 8937
+    components:
+    - type: Transform
+      pos: 35.5,-57.5
+      parent: 2
+  - uid: 8989
+    components:
+    - type: Transform
+      pos: 19.5,-58.5
+      parent: 2
+  - uid: 8990
+    components:
+    - type: Transform
+      pos: 22.5,-58.5
+      parent: 2
+  - uid: 8991
+    components:
+    - type: Transform
+      pos: 34.5,-57.5
+      parent: 2
+  - uid: 9001
+    components:
+    - type: Transform
+      pos: 23.5,-58.5
+      parent: 2
+  - uid: 9002
+    components:
+    - type: Transform
+      pos: 20.5,-58.5
+      parent: 2
+  - uid: 9003
+    components:
+    - type: Transform
+      pos: 21.5,-58.5
+      parent: 2
+  - uid: 9008
+    components:
+    - type: Transform
+      pos: 18.5,-58.5
+      parent: 2
+  - uid: 9009
+    components:
+    - type: Transform
+      pos: -22.5,-58.5
+      parent: 2
+  - uid: 9010
+    components:
+    - type: Transform
+      pos: -14.5,-58.5
+      parent: 2
+  - uid: 9011
+    components:
+    - type: Transform
+      pos: -20.5,-58.5
+      parent: 2
+  - uid: 9012
+    components:
+    - type: Transform
+      pos: -24.5,-58.5
+      parent: 2
+  - uid: 10981
+    components:
+    - type: Transform
+      pos: -25.5,-58.5
+      parent: 2
+  - uid: 11679
+    components:
+    - type: Transform
+      pos: -21.5,-58.5
+      parent: 2
   - uid: 17546
     components:
     - type: Transform
@@ -132758,18 +132724,6 @@ entities:
     - type: Transform
       pos: 20.5,-4.5
       parent: 2
-  - uid: 19163
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -14.5,-2.5
-      parent: 2
-  - uid: 19164
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -14.5,-3.5
-      parent: 2
   - uid: 19165
     components:
     - type: Transform
@@ -133500,14 +133454,6 @@ entities:
       parent: 2
     - type: SurveillanceCamera
       id: AI Satellite - Core North West
-  - uid: 19274
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -0.5,-55.5
-      parent: 2
-    - type: SurveillanceCamera
-      id: EVA
   - uid: 19275
     components:
     - type: Transform
@@ -137442,17 +137388,10 @@ entities:
       parent: 2
 - proto: VendingMachineAmmo
   entities:
-  - uid: 19918
+  - uid: 9004
     components:
     - type: Transform
-      pos: 35.5,-57.5
-      parent: 2
-- proto: VendingMachineAstroVend
-  entities:
-  - uid: 19919
-    components:
-    - type: Transform
-      pos: -24.5,-58.5
+      pos: -14.5,-2.5
       parent: 2
 - proto: VendingMachineAtmosDrobe
   entities:
@@ -137632,32 +137571,6 @@ entities:
     - type: Transform
       pos: -9.5,-14.5
       parent: 2
-  - uid: 19948
-    components:
-    - type: Transform
-      pos: -25.5,-58.5
-      parent: 2
-- proto: VendingMachineExpeditionaryFlatpackVend
-  entities:
-  - uid: 19949
-    components:
-    - type: Transform
-      pos: 1.5,-61.5
-      parent: 2
-- proto: VendingMachineFlatpackVend
-  entities:
-  - uid: 19950
-    components:
-    - type: Transform
-      pos: -26.5,-58.5
-      parent: 2
-- proto: VendingMachineFuelVend
-  entities:
-  - uid: 19951
-    components:
-    - type: Transform
-      pos: -27.5,-58.5
-      parent: 2
 - proto: VendingMachineGames
   entities:
   - uid: 19952
@@ -137707,11 +137620,6 @@ entities:
     - type: Transform
       pos: -40.5,-26.5
       parent: 2
-  - uid: 19959
-    components:
-    - type: Transform
-      pos: -14.5,-58.5
-      parent: 2
   - uid: 19960
     components:
     - type: Transform
@@ -137736,10 +137644,10 @@ entities:
       parent: 2
 - proto: VendingMachineMercVend
   entities:
-  - uid: 19964
+  - uid: 9005
     components:
     - type: Transform
-      pos: 15.5,-62.5
+      pos: -14.5,-4.5
       parent: 2
 - proto: VendingMachineNutri
   entities:
@@ -137750,10 +137658,10 @@ entities:
       parent: 2
 - proto: VendingMachinePickNPack
   entities:
-  - uid: 19966
+  - uid: 9006
     components:
     - type: Transform
-      pos: 34.5,-57.5
+      pos: -14.5,-3.5
       parent: 2
 - proto: VendingMachinePride
   entities:
@@ -137774,22 +137682,12 @@ entities:
     - type: Transform
       pos: 39.5,-24.5
       parent: 2
-  - uid: 19970
-    components:
-    - type: Transform
-      pos: 36.5,-58.5
-      parent: 2
 - proto: VendingMachineSalvage
   entities:
   - uid: 19971
     components:
     - type: Transform
       pos: 14.5,28.5
-      parent: 2
-  - uid: 19972
-    components:
-    - type: Transform
-      pos: 23.5,-58.5
       parent: 2
 - proto: VendingMachineSciDrobe
   entities:

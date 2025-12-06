@@ -218,6 +218,8 @@ public sealed partial class SalvageSystem
             component.NextOffer = _timing.CurTime + TimeSpan.FromSeconds(_cooldown);
             component.CooldownTime = TimeSpan.FromSeconds(_cooldown);
             Announce(uid, Loc.GetString("salvage-expedition-mission-completed"));
+            // HARDLIGHT: Spawn expedition reward at the originating console based on difficulty
+            TrySpawnExpeditionRewardAtConsole(expeditionComp);
         }
         else
         {
@@ -234,7 +236,41 @@ public sealed partial class SalvageSystem
 
         UpdateConsoles(expedition);
     }
+     // HARDLIGHT: Spawn appropriate briefcase reward at the console that started the expedition
+    private void TrySpawnExpeditionRewardAtConsole(SalvageExpeditionComponent expeditionComp)
+    {
+        if (expeditionComp.Console == null || !Exists(expeditionComp.Console.Value))
+        {
+            Log.Warning("Expedition completed but console reference missing; cannot spawn reward.");
+            return;
+        }
 
+        if (!TryComp<TransformComponent>(expeditionComp.Console.Value, out var consoleXform))
+        {
+            Log.Warning($"Expedition completed but console {ToPrettyString(expeditionComp.Console.Value)} has no transform; cannot spawn reward.");
+            return;
+        }
+
+        // Map difficulty to reward tier entity
+        var diffId = expeditionComp.MissionParams.Difficulty.ToString();
+        string rewardProto = diffId switch
+        {
+            "NFModerate" => "SpaceCashExpeditionT1",
+            "NFHazardous" => "SpaceCashExpeditionT2",
+            "NFExtreme" => "SpaceCashExpeditionT3",
+            _ => "SpaceCashExpeditionT1"
+        };
+
+        try
+        {
+            EntityManager.SpawnEntity(rewardProto, consoleXform.Coordinates);
+            Log.Info($"Spawned expedition reward {rewardProto} at console {ToPrettyString(expeditionComp.Console.Value)} for difficulty {diffId}.");
+        }
+        catch (Exception ex)
+        {
+            Log.Error($"Failed to spawn expedition reward {rewardProto} at console {ToPrettyString(expeditionComp.Console.Value)}: {ex}");
+        }
+    }
     private void GenerateMissions(SalvageExpeditionDataComponent component)
     {
         // HARDLIGHT: Prevent duplicate mission generation
