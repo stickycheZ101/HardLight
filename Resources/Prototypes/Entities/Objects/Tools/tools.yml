@@ -313,6 +313,45 @@
     soundHit:
       path: "/Audio/Items/drill_hit.ogg"
 
+### HL start
+- type: entity
+  name: gorlex maraudrill
+  parent: [PowerDrill, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  id: SyndicatePowerDrill
+  description: An advanced powered hand drill.
+  components:
+  - type: Sprite
+    sprite: Objects/Tools/drill.rsi
+    state: syn_drill_screw
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: syn_inhand-left
+      right:
+      - state: syn_inhand-right
+    size: Normal
+  - type: Screwing
+    speedModifier: 3.0
+  - type: MultipleTool
+    entries:
+      - behavior: Screwing
+        sprite:
+          sprite: Objects/Tools/drill.rsi
+          state: syn_drill_screw
+        useSound: /Audio/Items/drill_use.ogg
+        changeSound: /Audio/Items/change_drill.ogg
+      - behavior: Anchoring
+        sprite:
+          sprite: Objects/Tools/drill.rsi
+          state: syn_drill_bolt
+        useSound: /Audio/Items/drill_use.ogg
+        changeSound: /Audio/Items/change_drill.ogg
+  - type: MeleeWeapon
+    damage:
+      types:
+        Piercing: 14
+### HL end
+
 - type: entity
   id: RCD
   parent: BaseItem # Frontier: remove BaseEngineeringContraband
