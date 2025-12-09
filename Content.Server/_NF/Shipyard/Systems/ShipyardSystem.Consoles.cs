@@ -516,9 +516,9 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
             return;
         }
 
-        // Calculate appraisal cost for the loaded ship (charge 50% of appraisal)
+        // Calculate appraisal cost for the loaded ship (charge 10% of appraisal)
         var fullAppraisal = _pricing.AppraiseGrid(shuttleUid, null);
-        var appraisalCost = (int) MathF.Round((float) fullAppraisal * 0.5f);
+        var appraisalCost = (int) MathF.Round((float) fullAppraisal * 0.1f);
 
         // Check if player has a bank account and session to charge them
         if (!_player.TryGetSessionByEntity(player, out var playerSession))
