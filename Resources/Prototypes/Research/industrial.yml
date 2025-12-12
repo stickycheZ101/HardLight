@@ -70,13 +70,13 @@
   cost: 10000
   recipeUnlocks:
   # Begin DeltaV Removals - replaced by upgrade kits + departmental techfabs
-  #- AutolatheHyperConvectionMachineCircuitboard
-  #- ProtolatheHyperConvectionMachineCircuitboard
-  #- CircuitImprinterHyperConvectionMachineCircuitboard
+  - AutolatheHyperConvectionMachineCircuitboard
+  - ProtolatheHyperConvectionMachineCircuitboard
+  - CircuitImprinterHyperConvectionMachineCircuitboard
   # End DeltaV Removals
   # Begin DeltaV Additions
-  - LatheUpgradeKitHyper
-  - LatheUpgradeKitCryo
+  # - LatheUpgradeKitHyper
+  # - LatheUpgradeKitCryo
   # End DeltaV Additions
   # Begin Goobstation Additions
   - UpgradeKitAutomation

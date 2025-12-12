@@ -54,15 +54,15 @@
         - Extractable # shitcode doesnt require this with container attempt events just in interaction
       containerId: inputContainer
       maxItems: 6 # manually have to sync it with ReagentGrinderComponent :
+    - !type:AutomatedBeakerSlot
+        input: PlumbingDispenser
+        output: PlumbingDispenser
   - type: ItemSlots
     slots:
       beakerSlot:
         whitelist:
           components:
           - FitsInDispenser
-    - !type:AutomatedBeakerSlot
-      input: PlumbingDispenser
-      output: PlumbingDispenser
   - type: Machine
     board: ReagentGrinderMachineCircuitboard
   - type: ContainerContainer

@@ -11,6 +11,6 @@
 - type: latheRecipePack
   id: UpgradeKits_Goob
   recipes:
-  - LatheUpgradeKitHyper
-  - LatheUpgradeKitCryo
+  # - LatheUpgradeKitHyper
+  # - LatheUpgradeKitCryo
   - UpgradeKitAutomation
